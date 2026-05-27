@@ -5,6 +5,7 @@ const sections = [
   { id: 'roadmap', label: 'Roadmap' },
   { id: 'metrics', label: 'Metrics' },
   { id: 'future', label: 'Future bets' },
+  { id: 'prototypes', label: 'Prototypes' },
 ]
 
 function Nav() {

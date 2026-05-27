@@ -1,7 +1,7 @@
 export const stories = [
   {
     id: 1,
-    title: "Smart trip companion",
+    title: "Trip companion",
     phase: "during-trip",
     phaseLabel: "During trip",
     persona: "guest",
@@ -56,7 +56,7 @@ export const stories = [
     criteria: [
       "Host receives a push notification 2 hours before scheduled guest pickup containing a guest briefing card — trip number on Turo, garaged cars from prior trips, guest rating, and a first-timer flag if this is the guest's first Turo trip",
       "Briefing card is accessible from the active trip screen at any time before and during the trip — not just at the 2-hour notification moment",
-      "If guest is a first-timer, host briefing card surfaces a one-tap prompt with a suggested welcome message they can send to the guest — editable before sending",
+      "Host briefing card surfaces a one-tap prompt with a suggested AI-generated welcome message which looks at trip number and previous bookings with the host they can send to the guest — editable before sending",
       "Host can add a private note to the guest profile visible only to them — persists across future bookings with the same guest",
       "Host dashboard surfaces the briefing card for all upcoming trips in the next 48 hours in a single view",
       "First-timer flag is visually distinct in the dashboard — hosts managing multiple cars can identify first-time guests across their fleet at a glance",

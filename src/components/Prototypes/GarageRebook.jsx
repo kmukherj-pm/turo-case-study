@@ -90,7 +90,7 @@ function GarageScreen() {
         gap: '8px',
         marginBottom: '16px',
       }}>
-        {['Your garage', 'Saved'].map((tab, i) => (
+        {['Your garage', 'Favorites'].map((tab, i) => (
           <div key={i} style={{
             padding: '6px 14px',
             borderRadius: '20px',

@@ -5,6 +5,16 @@ export const metrics = {
   },
   leading: [
     {
+      label: "In-trip response cycle time",
+      description: "Average time for a host to respond to a guest message during an active trip. Target under 5 minutes. Leading indicator of trust and trip quality.",
+      story: "Story 2",
+    },
+    {
+      label: "Post-trip car feel completion rate",
+      description: "Percentage of guests who complete the enriched review car feel question. Measures data foundation health for downstream stories.",
+      story: "Story 4",
+    },
+    {
       label: "Trip 2 conversion rate",
       description: "Percentage of guests who complete a second trip within 60 days of their first. The earliest proxy for ATPU trajectory.",
       story: "Stories 1-5",
@@ -13,16 +23,6 @@ export const metrics = {
       label: "Post-trip host save rate",
       description: "Percentage of guests who save a host following a completed trip. The primary signal that the relationship layer is working.",
       story: "Story 6",
-    },
-    {
-      label: "Post-trip car feel completion rate",
-      description: "Percentage of guests who complete the enriched review car feel question. Measures data foundation health for downstream stories.",
-      story: "Story 4",
-    },
-    {
-      label: "In-trip response cycle time",
-      description: "Average time for a host to respond to a guest message during an active trip. Target under 5 minutes. Leading indicator of trust and trip quality.",
-      story: "Story 2",
     },
     {
       label: "Trusted rebook rate",
@@ -62,7 +62,7 @@ export const metrics = {
       "Loyalty pricing enabled by at least 20% of eligible All-Star hosts",
     ],
     day90: [
-      "ATPU movement visible for nomad and relocated segment",
+      "ATPU movement visible for nomad segment",
       "Early booking loyalty rate claimed by measurable guest cohort",
       "Host relationship signal trending positive",
     ],
@@ -89,8 +89,8 @@ export const metrics = {
       description: "Hosts who list on both platforms offer home and car together. BD dependency but a natural destination travel bundle for the Wanderlust segment.",
     },
     {
-      title: "Membership tier",
-      description: "High-ATPU guests unlock a membership with priority access and rate benefits. Requires the trust foundation this roadmap builds first.",
-    },
+      title: "Relationship-first search",
+      description: "For guests with a trusted roster, discovery starts from their saved hosts and garaged cars — not a cold search. The longer you use Turo, the more personalized your marketplace becomes. A switching cost Hertz can never replicate.",
+},,
   ],
 }

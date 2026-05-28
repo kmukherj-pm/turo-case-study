@@ -14,7 +14,7 @@ function Persona() {
           <p className="text-lg text-gray-500 leading-relaxed mb-8">
             {persona.description}
           </p>
-          <div className="p-6 rounded-lg mb-8" style={{background: '#231F20'}}>
+          <div className="p-6 rounded-lg mb-6" style={{background: '#231F20'}}>
             <p className="text-sm font-medium uppercase tracking-widest mb-3" style={{color: '#F9D96A'}}>
               Problem statement
             </p>
@@ -22,7 +22,7 @@ function Persona() {
               {persona.problemStatement}
             </p>
           </div>
-          <div className="p-6 border border-gray-100 rounded-lg">
+          <div className="p-6 border border-gray-100 rounded-lg mb-6">
             <p className="text-sm font-medium uppercase tracking-widest mb-3" style={{color: '#A37901'}}>
               Hypothesis
             </p>
@@ -44,12 +44,28 @@ function Persona() {
               </div>
             </div>
           </div>
+          <div className="p-6 border border-gray-100 rounded-lg">
+            <p className="text-sm font-medium uppercase tracking-widest mb-4" style={{color: '#A37901'}}>
+              Key assumptions
+            </p>
+            <div className="flex flex-col gap-3">
+            {persona.assumptions.map((a, i) => (
+              <div key={i} className="flex items-start gap-3">
+                <span className="flex-shrink-0 mt-1" style={{color: '#F9D96A'}}>→</span>
+                <p className="text-sm text-gray-500 leading-relaxed">
+                  <span className="font-medium" style={{color: '#231F20'}}>{a.label} — </span>
+                  {a.body}
+                </p>
+              </div>
+            ))}
+          </div>
+          </div>
         </div>
         <div>
           <p className="text-sm font-medium text-gray-400 uppercase tracking-widest mb-6">
             Why this persona first
           </p>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 mb-8">
             {persona.whyThisPersonaFirst.map((reason, i) => (
               <div key={i} className="flex gap-4 items-start">
                 <div className="w-1 h-full min-h-4 mt-1 flex-shrink-0" style={{background: '#F9D96A'}}></div>
@@ -64,24 +80,19 @@ function Persona() {
               </div>
             ))}
           </div>
-        </div>
-      </div>
-      <div className="grid grid-cols-2 gap-8">
-        <div className="p-6 border border-gray-100 rounded-lg">
-          <p className="text-sm font-medium uppercase tracking-widest mb-3" style={{color: '#A37901'}}>
-            {persona.twoAxes.axis1.label}
-          </p>
-          <p className="text-base text-gray-500 leading-relaxed">
-            {persona.twoAxes.axis1.description}
-          </p>
-        </div>
-        <div className="p-6 border border-gray-100 rounded-lg">
-          <p className="text-sm font-medium uppercase tracking-widest mb-3" style={{color: '#A37901'}}>
-            {persona.twoAxes.axis2.label}
-          </p>
-          <p className="text-base text-gray-500 leading-relaxed">
-            {persona.twoAxes.axis2.description}
-          </p>
+          <div className="p-6 rounded-lg" style={{background: '#fafafa', border: '1px solid #f0f0f0'}}>
+            <p className="text-sm font-medium uppercase tracking-widest mb-4" style={{color: '#A37901'}}>
+              Why not the Wanderlust traveler?
+            </p>
+            <div className="flex flex-col gap-3">
+              {persona.whyNotWanderlust.map((reason, i) => (
+                <div key={i} className="flex items-start gap-3">
+                  <span className="flex-shrink-0 mt-1 text-gray-300">—</span>
+                  <p className="text-sm text-gray-500 leading-relaxed">{reason}</p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>

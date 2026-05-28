@@ -1,3 +1,4 @@
+import CustomerJourney from './components/CustomerJourney'
 import GarageRebook from './components/Prototypes/GarageRebook'
 import HostBriefingCard from './components/Prototypes/HostBriefingCard'
 import TripCompanion from './components/Prototypes/TripCompanion'
@@ -18,6 +19,7 @@ function App() {
         <Hero />
         <AboutMe />
         <Problem />
+        <CustomerJourney />
         <Persona />
         <Roadmap />
         <div id="prototypes" className="max-w-6xl mx-auto px-8 py-24">

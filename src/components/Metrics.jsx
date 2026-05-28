@@ -15,53 +15,92 @@ function Metrics() {
         </p>
       </div>
 
-      <div className="p-8 rounded-lg mb-8" style={{background: '#231F20'}}>
-        <p className="text-xs font-medium uppercase tracking-widest mb-2" style={{color: '#F9D96A'}}>
-          North star
-        </p>
-        <p className="text-3xl font-medium mb-2" style={{color: '#fff'}}>
-          {metrics.northStar.label}
-        </p>
-        <p className="text-base" style={{color: '#aaa'}}>
-          {metrics.northStar.description}
-        </p>
-      </div>
+      {/* Pyramid */}
+      <div className="flex flex-col items-center mb-16" style={{gap: '2px'}}>
 
-      <div className="grid grid-cols-3 gap-4 mb-8">
-        {metrics.leading.map((m, i) => (
-          <div key={i} className="p-6 border border-gray-100 rounded-lg">
-            <p className="text-xs font-medium uppercase tracking-widest mb-1" style={{color: '#A37901'}}>
-              Leading indicator
-            </p>
-            <p className="text-sm font-medium mb-2" style={{color: '#231F20'}}>
-              {m.label}
-            </p>
-            <p className="text-sm text-gray-500 leading-relaxed mb-3">
-              {m.description}
-            </p>
-            <p className="text-xs text-gray-300 uppercase tracking-widest">
-              {m.story}
-            </p>
+        {/* North star */}
+        <div style={{
+          width: '320px',
+          background: '#231F20',
+          borderRadius: '12px 12px 0 0',
+          padding: '20px 24px',
+          textAlign: 'center',
+        }}>
+          <p style={{fontSize: '11px', fontWeight: 500, textTransform: 'uppercase', letterSpacing: '0.08em', color: '#F9D96A', margin: '0 0 6px'}}>
+            North star
+          </p>
+          <p style={{fontSize: '20px', fontWeight: 600, color: '#fff', margin: '0 0 4px'}}>
+            {metrics.northStar.label}
+          </p>
+          <p style={{fontSize: '12px', color: '#888', margin: 0}}>
+            {metrics.northStar.description}
+          </p>
+        </div>
+
+        {/* Leading indicators */}
+        <div style={{
+          width: '640px',
+          background: '#fafafa',
+          border: '1px solid #f0f0f0',
+          padding: '20px 24px',
+        }}>
+          <p style={{fontSize: '11px', fontWeight: 500, textTransform: 'uppercase', letterSpacing: '0.08em', color: '#A37901', margin: '0 0 12px', textAlign: 'center'}}>
+            Leading indicators — visible within 30 days
+          </p>
+          <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '12px'}}>
+            {metrics.leading.map((m, i) => (
+              <div key={i} style={{
+                background: '#fff',
+                border: '1px solid #f0f0f0',
+                borderRadius: '8px',
+                padding: '12px',
+              }}>
+                <p style={{fontSize: '12px', fontWeight: 600, color: '#231F20', margin: '0 0 4px'}}>
+                  {m.label}
+                </p>
+                <p style={{fontSize: '11px', color: '#888', margin: '0 0 6px', lineHeight: 1.5}}>
+                  {m.description}
+                </p>
+                <p style={{fontSize: '10px', color: '#ccc', textTransform: 'uppercase', letterSpacing: '0.06em', margin: 0}}>
+                  {m.story}
+                </p>
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
 
-      <div className="grid grid-cols-3 gap-4 mb-16">
-        {metrics.guardrails.map((g, i) => (
-          <div key={i} className="p-6 border border-gray-100 rounded-lg">
-            <p className="text-xs font-medium uppercase tracking-widest mb-1 text-gray-400">
-              Guardrail
-            </p>
-            <p className="text-sm font-medium mb-2" style={{color: '#231F20'}}>
-              {g.label}
-            </p>
-            <p className="text-sm text-gray-500 leading-relaxed">
-              {g.description}
-            </p>
+        {/* Guardrails */}
+        <div style={{
+          width: '960px',
+          background: '#f5f5f5',
+          border: '1px solid #eee',
+          borderRadius: '0 0 12px 12px',
+          padding: '20px 24px',
+        }}>
+          <p style={{fontSize: '11px', fontWeight: 500, textTransform: 'uppercase', letterSpacing: '0.08em', color: '#888', margin: '0 0 12px', textAlign: 'center'}}>
+            Guardrail metrics — must not regress
+          </p>
+          <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '12px'}}>
+            {metrics.guardrails.map((g, i) => (
+              <div key={i} style={{
+                background: '#fff',
+                border: '1px solid #eee',
+                borderRadius: '8px',
+                padding: '12px',
+              }}>
+                <p style={{fontSize: '12px', fontWeight: 600, color: '#231F20', margin: '0 0 4px'}}>
+                  {g.label}
+                </p>
+                <p style={{fontSize: '11px', color: '#888', margin: 0, lineHeight: 1.5}}>
+                  {g.description}
+                </p>
+              </div>
+            ))}
           </div>
-        ))}
+        </div>
       </div>
 
+      {/* Measurement plan */}
       <p className="text-sm font-medium uppercase tracking-widest mb-8" style={{color: '#A37901'}}>
         Measurement plan
       </p>

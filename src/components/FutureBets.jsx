@@ -41,21 +41,24 @@ function FutureBets() {
             </p>
           </div>
           <div className="flex flex-col gap-4">
-            <div className="p-6 rounded-lg" style={{background: '#231F20'}}>
-              <p className="text-2xl font-medium mb-1" style={{color: '#F9D96A'}}>9 stories</p>
-              <p className="text-sm" style={{color: '#aaa'}}>Prioritized by ATPU impact, sequenced by dependency</p>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="p-6 border border-gray-100 rounded-lg">
-                <p className="text-2xl font-medium mb-1" style={{color: '#231F20'}}>3</p>
-                <p className="text-sm text-gray-400">Variables from the case prompt — experience, segment, pricing</p>
-              </div>
-              <div className="p-6 border border-gray-100 rounded-lg">
-                <p className="text-2xl font-medium mb-1" style={{color: '#231F20'}}>1</p>
-                <p className="text-sm text-gray-400">Thesis — from first trip to trusted routine</p>
-              </div>
-            </div>
+          <div className="p-6 rounded-lg" style={{background: '#231F20'}}>
+            <p className="text-2xl font-medium mb-2" style={{color: '#F9D96A'}}>9 stories. One quarter. One arc.</p>
+            <p className="text-sm leading-relaxed" style={{color: '#aaa'}}>Fix the trip → capture the signal → build the relationship →{' '}
+              <br/>make rebooking effortless → reward loyalty
+            </p>
           </div>
+          <div className="p-6 rounded-lg" style={{background: '#F9D96A'}}>
+          <p className="text-sm font-medium uppercase tracking-widest mb-3" style={{color: '#A37901'}}>
+            The thesis
+          </p>
+          <p className="text-2xl font-medium mb-2" style={{color: '#231F20'}}>
+            From first trip to trusted routine.
+          </p>
+          <p className="text-sm leading-relaxed" style={{color: '#5a4a00'}}>
+            Turo's next product frontier is <strong>loyalty</strong>. Great trips alone don't create loyal guests. Great <strong>relationships with hosts</strong> do. This roadmap builds the infrastructure that turns a transaction into a <strong>trusted routine</strong>.
+          </p>
+        </div>
+        </div>
         </div>
       </div>
     </div>

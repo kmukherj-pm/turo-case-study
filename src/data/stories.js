@@ -7,10 +7,22 @@ export const stories = [
     persona: "guest",
     statement: "As a guest, I want to receive timely, contextual support during my trip so that I feel confident and supported rather than stressed about logistics.",
     criteria: [
-      "Guest receives a fuel reminder push notification on iOS and Android 90 minutes before scheduled return time, with a one-tap link to the nearest fuel station via Google Maps or Apple Maps",
-      "Guest receives a return buffer notification 60 minutes before trip end surfacing the grace period policy and extension request flow",
-      "At the moment the trip end time is reached, guest receives a proactive in-app notification confirming they are within the 30-minute grace period and not yet late, displaying the exact grace period expiry time, and offering a one-tap trip extension request — no charge is applied until grace period expires",
-      "In-app navigation at trip start uses host-verified pickup coordinates confirmed by the host prior to trip start, eliminating wrong-location errors",
+      {
+        action: "Fuel reminder 90 min before return",
+        detail: "one-tap link to nearest station via Google Maps or Apple Maps"
+      },
+      {
+        action: "Return buffer notification 60 min before trip end",
+        detail: "surfaces grace period policy and extension request flow"
+      },
+      {
+        action: "Grace period notification at trip end",
+        detail: "confirms not yet late, shows exact expiry time, one-tap extension request — no charge until grace period expires"
+      },
+      {
+        action: "Host-verified pickup coordinates at trip start",
+        detail: "eliminates wrong-location errors"
+      },
     ],
     outOfScope: [
       "Calendar integration — backlog",
@@ -29,13 +41,26 @@ export const stories = [
     persona: "host",
     statement: "As a host, I want lightweight tools that help me respond quickly to guests during active trips so that I can deliver a great experience without being tethered to my phone.",
     criteria: [
-      "Host receives a push notification on iOS and Android when a guest message goes unanswered for 5 minutes during an active trip",
-      "Host can respond using quick-reply templates directly from the iOS notification action or Android direct reply interface without opening the Turo app",
-      "Four quick-reply templates are available for the most common in-trip guest situations — lost, running late, fuel question, lockbox help",
-      "Quick-reply templates are editable by the host so they can personalize responses to match their communication style",
-      "Host can see all active trip guest messages in a single inbox view without navigating between individual trip records",
-      "Host dashboard displays average in-trip response time as a running metric alongside existing All-Star performance indicators",
-      "In-trip response time is surfaced as a new host quality signal — directional and informational in v1, not punitive",
+      {
+        action: "Push notification when guest message goes unanswered for 5 minutes",
+        detail: "fires during active trips only"
+      },
+      {
+        action: "Quick-reply directly from iOS notification action or Android direct reply",
+        detail: "no need to open the Turo app"
+      },
+      {
+        action: "Four quick-reply templates for common in-trip situations",
+        detail: "lost, running late, fuel question, lockbox help — editable by host"
+      },
+      {
+        action: "Single inbox view for all active trip guest messages",
+        detail: "no navigating between individual trip records"
+      },
+      {
+        action: "Average in-trip response time displayed on host dashboard",
+        detail: "directional quality signal alongside existing All-Star metrics — informational in v1, not punitive"
+      },
     ],
     outOfScope: [
       "Guest-facing response time display on host profile — backlog, ships once behavior data exists",
@@ -54,19 +79,33 @@ export const stories = [
     persona: "host",
     statement: "As a host, I want to know who my guest is before they arrive so that I can deliver a personalized pickup experience that makes them feel welcome from the first moment.",
     criteria: [
-      "Host receives a push notification 2 hours before scheduled guest pickup containing a guest briefing card — trip number on Turo, garaged cars from prior trips, guest rating, and a first-timer flag if this is the guest's first Turo trip",
-      "Briefing card is accessible from the active trip screen at any time before and during the trip — not just at the 2-hour notification moment",
-      "Host briefing card surfaces a one-tap prompt with a suggested AI-generated welcome message which looks at trip number and previous bookings with the host they can send to the guest — editable before sending",
-      "Host can add a private note to the guest profile visible only to them — persists across future bookings with the same guest",
-      "Host dashboard surfaces the briefing card for all upcoming trips in the next 48 hours in a single view",
-      "First-timer flag is visually distinct in the dashboard — hosts managing multiple cars can identify first-time guests across their fleet at a glance",
+      {
+        action: "Guest briefing card delivered 2 hours before pickup",
+        detail: "includes trip number, garaged cars from prior trips, guest rating, and first-timer flag"
+      },
+      {
+        action: "Briefing card accessible from active trip screen at any time",
+        detail: "not just at the 2-hour notification moment"
+      },
+      {
+        action: "AI-generated welcome message for first-time guests",
+        detail: "based on trip number and previous bookings with the host — editable before sending in one tap"
+      },
+      {
+        action: "Private host note on guest profile",
+        detail: "persists across future bookings with the same guest — visible only to the host"
+      },
+      {
+        action: "Fleet dashboard surfaces briefing cards for all upcoming trips in next 48 hours",
+        detail: "first-timer flag visually distinct for hosts managing multiple cars"
+      },
     ],
     outOfScope: [
-      "AI-generated host communications — backlog, natural v2 once enriched guest data from story 4 exists",
-      "Guest-facing visibility into what the host can see — host notes are private",
+      "AI-generated host communications beyond welcome message — backlog, v2 once story 4 data exists",
+      "Guest-facing visibility into host notes — host notes are private",
       "Trip purpose signal in briefing card — requires story 4 data, v2",
     ],
-    atpuLink: "A warm, personalized pickup experience is the first moment the guest-host relationship is built. Hosts who know their guests create Q1 moments that drive rebooking.",
+    atpuLink: "A warm, personalized pickup experience is the first moment the guest-host relationship is built. Hosts who know their guests create trust that drives rebooking.",
   },
   {
     id: 4,
@@ -76,19 +115,38 @@ export const stories = [
     persona: "guest",
     statement: "As a guest, I want to share how the car felt and how the host made me feel separately from my overall star rating so that my feedback reflects the full experience and helps me make better decisions next time.",
     criteria: [
-      "Existing star rating flow remains intact and unchanged — the enriched review is an additive layer presented after the star rating is submitted, not a replacement",
-      "Guest is presented with two additional one-tap questions after submitting their star rating — how did the car feel to drive? (loved it, it was fine, not for me) and would you rent from this host again? (definitely, maybe, probably not)",
-      "Guest is presented with a one-tap trip purpose tag — daily errand, weekend trip, moving/hauling, road trip, special occasion, other",
-      "All three post-rating questions are optional and skippable in one tap — completion rate is a metric not a gate",
-      "Guest responses are stored against the guest profile and accessible to downstream stories 5, 6, 7, 8, and 9 — visible to the guest in their trip history, not publicly displayed on host listings in v1",
+      {
+        action: "Existing star rating flow remains intact and unchanged",
+        detail: "enriched review is an additive layer presented after star rating — not a replacement"
+      },
+      {
+        action: "Car feel question after star rating",
+        detail: "how did the car feel to drive? — loved it, it was fine, not for me"
+      },
+      {
+        action: "Host relationship question after star rating",
+        detail: "would you rent from this host again? — definitely, maybe, probably not"
+      },
+      {
+        action: "One-tap trip purpose tag",
+        detail: "daily errand, weekend trip, moving/hauling, road trip, special occasion, other"
+      },
+      {
+        action: "All enriched questions optional and skippable in one tap",
+        detail: "completion rate is a metric not a gate"
+      },
+      {
+        action: "Guest responses stored against guest profile",
+        detail: "visible to guest in trip history — feeds stories 5, 6, 7, 8, and 9 — not publicly displayed in v1"
+      },
     ],
     outOfScope: [
-      "Displaying enriched review signals publicly on host listings — backlog",
+      "Displaying enriched signals publicly on host listings — backlog",
       "Using enriched signals in host search ranking — backlog, v2 pending trust and safety review",
       "Free text response — backlog",
       "Host visibility into individual guest responses — backlog, input to stories 8 and 9",
     ],
-    atpuLink: "The enriched review is the data foundation for the entire relationship infrastructure. Car feel and host relationship signals power stories 5 through 9.",
+    atpuLink: "The enriched review is the data foundation for the entire relationship infrastructure. Car feel and host relationship signals power every story that follows.",
   },
   {
     id: 5,
@@ -98,13 +156,30 @@ export const stories = [
     persona: "guest",
     statement: "As a guest, I want to be reminded of a great trip at the right moment so that booking again feels effortless rather than something I have to remember to do myself.",
     criteria: [
-      "Within 24 hours of trip end, guest receives a personalized re-engagement notification on iOS and Android surfacing the car they just drove and the host they rented from with a one-tap rebook shortcut",
-      "Re-engagement notification only fires if guest submitted a positive enriched review signal from story 4 — loved it on car feel or definitely on host relationship — preventing re-engagement prompts after neutral or negative trips",
-      "If guest has no enriched review signal yet — story 4 not yet shipped — re-engagement fires for all trips with a four star rating or above as a fallback condition",
-      "Re-engagement notification is sent once and once only — no repeat nudges if guest does not act",
-      "Rebook shortcut pre-populates the booking flow with the same car, same host, and a suggested date based on the guest's prior booking cadence — monthly cadence suggests 30 days out, weekly suggests 7 days out, no cadence defaults to nearest upcoming weekend",
-      "Guest can dismiss the re-engagement notification and optionally indicate why — not ready yet, too expensive, looking for something different — dismissal signals feed into re-engagement timing optimization over time",
-      "Re-engagement surface exists in the guest's trip history on web — last trip card shows a persistent rebook shortcut for 30 days post-trip",
+      {
+        action: "Re-engagement notification within 24 hours of trip end",
+        detail: "surfaces the car and host from the completed trip with a one-tap rebook shortcut"
+      },
+      {
+        action: "Notification only fires for positive trips",
+        detail: "loved it on car feel or definitely on host relationship from story 4 — fallback to 4+ star rating if story 4 not yet shipped"
+      },
+      {
+        action: "Sent once only",
+        detail: "no repeat nudges if guest does not act"
+      },
+      {
+        action: "Rebook shortcut pre-populates booking flow",
+        detail: "same car, same host, suggested date based on prior booking cadence — monthly suggests 30 days out, weekly suggests 7 days, no cadence defaults to nearest weekend"
+      },
+      {
+        action: "Optional dismissal reason capture",
+        detail: "not ready yet, too expensive, looking for something different — feeds re-engagement timing optimization"
+      },
+      {
+        action: "Persistent rebook shortcut in trip history on web",
+        detail: "visible for 30 days post-trip before archiving"
+      },
     ],
     outOfScope: [
       "Calendar integration — backlog",
@@ -121,20 +196,36 @@ export const stories = [
     phase: "relationship",
     phaseLabel: "Relationship infrastructure",
     persona: "guest",
-    statement: "As a guest who is building a life in a new city, I want to save hosts I love into a trusted roster after a great trip so that my mobility routine builds itself over time.",
-    context: "This story introduces the trusted roster — a named feature in the guest profile that stores saved hosts following completed trips. The trusted roster is referenced in stories 7, 8, and 9 as the relationship infrastructure that powers trusted rebook and loyalty pricing. For nomad and relocated guests who rotate between cities or build routines in a new one, the trusted roster is their personal mobility network on Turo.",
+    statement: "As a digital nomad building a life in a new city, I want to save hosts I love into a trusted roster after a great trip so that my mobility routine builds itself over time.",
+    context: "This story introduces the trusted roster — a named feature in the guest profile that stores saved hosts following completed trips. The trusted roster is referenced in stories 7, 8, and 9 as the relationship infrastructure that powers trusted rebook and loyalty pricing.",
     criteria: [
-      "Guest is presented with a save this host prompt on iOS and Android as part of the post-trip review flow in story 4 — surfaced immediately after the would you rent from this host again? question if guest responds definitely",
-      "Guest can also save a host manually at any time from the host profile page or active trip screen for a trip they have completed — save action is never more than two taps away",
-      "Save this host prompt is only available following a completed trip — hosts cannot be saved from browse or search without a prior completed trip",
-      "Saved hosts are stored in a dedicated trusted roster section in the guest profile — distinct from car favorites which already exist",
-      "Trusted roster card displays host name, all-star status, available cars, average response time, and the guest's own would you rent again signal from story 4",
-      "Guest receives a notification when a saved host adds a new car to their fleet",
-      "Guest receives a notification when a saved host has availability for an upcoming weekend — frequency capped at once per week per saved host",
-      "Trusted roster is accessible in guest profile on web with upcoming availability across all saved hosts in a single calendar view",
+      {
+        action: "Save this host prompt surfaces in post-trip review flow",
+        detail: "immediately after would you rent from this host again? if guest responds definitely"
+      },
+      {
+        action: "Host save only available after a completed trip",
+        detail: "hosts cannot be saved from browse or search — relationship must be earned through experience"
+      },
+      {
+        action: "Saved hosts stored in dedicated trusted roster section",
+        detail: "distinct from car favorites which already exist"
+      },
+      {
+        action: "Trusted roster card shows host name, all-star status, available cars, response time",
+        detail: "plus guest's own would you rent again signal from story 4"
+      },
+      {
+        action: "Notification when saved host adds a new car",
+        detail: "frequency capped at once per week per saved host"
+      },
+      {
+        action: "Web trusted roster surfaces upcoming availability across all saved hosts",
+        detail: "single calendar view — useful for nomad guests planning ahead on a laptop"
+      },
     ],
     outOfScope: [
-      "Saving a host without a completed trip — intentionally excluded, relationship must be earned through experience",
+      "Saving a host without a completed trip — intentionally excluded",
       "Host visibility into which guests have saved them — input to stories 8 and 9",
       "Saved host availability alerts for specific dates — requires calendar integration, backlog",
       "Mutual connection or social features — intentionally excluded",
@@ -151,24 +242,54 @@ export const stories = [
     persona: "guest",
     statement: "As a guest, I want my past driven cars and trusted hosts surfaced in one place so that rebooking a great experience takes seconds — whether I'm returning for a car I loved, a host I trust, or both.",
     criteria: [
-      "Within the existing favorites tab, a your garage filter surfaces cars the guest has driven — distinct from browsed and saved cars",
-      "Driven cars are automatically added to the garage view upon trip completion without any guest action required — the garage populates passively",
-      "Each garage card displays the car make, model, host name, last trip date, guest's own car feel rating from story 4 if submitted, and a one-tap rebook shortcut",
-      "Browsed and saved cars remain in the existing favorites view unchanged — the garage filter is additive not a replacement",
-      "Guest receives a push notification when a garaged car becomes available for an upcoming weekend — frequency capped at once per week per car",
-      "Suggested rebook date on garage cards is personalized based on guest's prior booking cadence from story 5",
-      "Guest can archive a car from their garage without affecting their broader favorites or trip history",
-      "When both a saved host from story 6 and their garaged car are available for the same dates, guest is presented with a trusted rebook prompt — since saving a host requires a completed trip, a garaged car from that host always exists when this prompt fires",
-      "One-tap rebook pre-populates the entire booking flow — car, host, dates, and previously used protection plan — guest confirms with a single tap",
-      "Guest receives a weekly digest notification summarizing availability across their trusted roster and garage — digest is opt-in and frequency is user-controlled",
-      "If a saved host's specific car is unavailable but the host has another car available guest is notified",
-      "If a guest has archived a garaged car but still has the host saved on their trusted roster, the trusted rebook prompt falls back to the host's other available cars — the host relationship persists independent of specific car preference",
-      "Guest with no completed trips sees an empty garage state and an empty trusted roster with a single prompt — complete your first trip to start building your garage and trusted roster",
+      {
+        action: "Your garage filter within existing favorites tab",
+        detail: "surfaces cars the guest has driven — distinct from browsed and saved cars"
+      },
+      {
+        action: "Driven cars added to garage automatically on trip completion",
+        detail: "no guest action required — garage populates passively"
+      },
+      {
+        action: "Garage card shows car, host, last trip date, car feel rating, rebook shortcut",
+        detail: "feel rating from story 4 if submitted"
+      },
+      {
+        action: "Cars with a completed trip automatically appear in the garage filter",
+        detail: "if already favorited, the existing favorite is enriched with the driven signal — no duplicate entries"
+      },
+      {
+        action: "Notification when garaged car is available for an upcoming weekend",
+        detail: "frequency capped at once per week per car"
+      },
+      {
+        action: "Suggested rebook date based on prior booking cadence",
+        detail: "not a generic date one month ahead"
+      },
+      {
+        action: "Trusted rebook prompt when saved host and garaged car are both available",
+        detail: "since saving a host requires a completed trip, a garaged car from that host always exists when this prompt fires"
+      },
+      {
+        action: "If archived car's host has another car available, guest is notified",
+        detail: "host relationship survives car preference changing"
+      },
+      {
+        action: "One-tap rebook pre-populates entire booking flow",
+        detail: "car, host, dates, and previously used protection plan — guest confirms with a single tap"
+      },
+      {
+        action: "Weekly digest notification summarizing availability across trusted roster and garage",
+        detail: "opt-in, frequency user-controlled"
+      },
+      {
+        action: "Cold start empty state covers both features",
+        detail: "complete your first trip to start building your garage and trusted roster"
+      },
     ],
     outOfScope: [
       "Standalone garage tab — intentionally excluded, lives within existing favorites tab",
       "Home screen widget — descope candidate for sprint planning",
-      "Archived cars cannot be re-added to the garage — guest must complete a new trip in that car to restore it",
       "Trusted rebook across cities — backlog, recommendations engine v2",
       "Car type affinity matching across cities — backlog, recommendations engine v2",
       "Garage sharing or social features — intentionally excluded",
@@ -184,13 +305,34 @@ export const stories = [
     persona: "host",
     statement: "As a host, I want to set a preferred rate for guests on my trusted roster who book early so that I can reward genuine relationships and improve advance booking certainty without managing it manually.",
     criteria: [
-      "Loyalty pricing feature is available exclusively to All-Star hosts — non All-Star hosts do not see the feature in their dashboard",
-      "Host can set a loyalty discount — between 5% and 20% off their standard daily rate — that applies automatically when a trusted roster guest books 30 or more days in advance",
-      "Loyalty discount is set once in pricing settings and applies across all cars in the host's listing — no per-trip or per-car configuration required",
-      "Host receives a notification when a trusted roster guest books at the loyalty rate",
-      "Host dashboard surfaces loyalty booking rate as a metric — percentage of advance bookings from trusted roster guests vs general public",
-      "Host can pause or adjust their loyalty discount at any time — changes apply to future bookings only",
-      "Host dashboard displays loyalty booking history and projected advance booking revenue with and without loyalty pricing enabled",
+      {
+        action: "Loyalty pricing available exclusively to All-Star hosts",
+        detail: "non All-Star hosts do not see the feature in their dashboard"
+      },
+      {
+        action: "Host sets loyalty discount between 5% and 20% off standard daily rate",
+        detail: "applies automatically when a trusted roster guest books 30 or more days in advance"
+      },
+      {
+        action: "Set once in pricing settings — applies across all cars",
+        detail: "no per-trip or per-car configuration required"
+      },
+      {
+        action: "Host notified when trusted roster guest books at loyalty rate",
+        detail: "with booking details and savings amount"
+      },
+      {
+        action: "Loyalty booking rate surfaced on host dashboard",
+        detail: "percentage of advance bookings from trusted roster guests vs general public"
+      },
+      {
+        action: "Host can pause or adjust loyalty discount at any time",
+        detail: "changes apply to future bookings only — confirmed bookings unaffected"
+      },
+      {
+        action: "Projected advance booking revenue with and without loyalty pricing",
+        detail: "concrete ROI signal for maintaining trusted roster"
+      },
     ],
     outOfScope: [
       "Loyalty pricing for non All-Star hosts — backlog, expand based on v1 results",
@@ -210,20 +352,37 @@ export const stories = [
     statement: "As a guest, I want to automatically receive a preferred rate when I book early with a host on my trusted roster so that building a relationship with a great host is financially rewarding as well as experientially rewarding.",
     dependencies: "Trusted roster established in story 6. Loyalty rate set by host in story 8. Guest must be on the host's trusted roster and book 30 or more days in advance to qualify.",
     criteria: [
-      "When a guest on a host's trusted roster initiates a booking 30 or more days in advance, the loyalty rate is automatically applied in the booking flow — no coupon code, no manual request, no friction",
-      "Loyalty rate is surfaced prominently in the booking flow — guest sees standard rate, loyalty rate, and saving clearly displayed — your returning guest rate: $95/day — you save $15/day",
-      "Guest receives a push notification when a host on their trusted roster has upcoming availability 30 or more days out — book now to lock in your returning guest rate",
-      "If a guest books less than 30 days in advance the standard rate applies — the booking flow clearly communicates when the loyalty rate window is available",
-      "Guest can see their loyalty rate for each host on their trusted roster from the saved host card",
-      "Guest with no trusted roster sees a prompt explaining that loyalty rates unlock after completing a trip and being added to a host's trusted roster",
-      "Loyalty rate is surfaced in the booking flow on web with the same prominence as mobile",
+      {
+        action: "Loyalty rate applied automatically when booking 30+ days in advance",
+        detail: "no coupon code, no manual request, no friction"
+      },
+      {
+        action: "Loyalty rate surfaced prominently in booking flow",
+        detail: "guest sees standard rate, loyalty rate, and saving — your returning guest rate: $95/day — you save $15/day"
+      },
+      {
+        action: "Push notification when trusted roster host has availability 30+ days out",
+        detail: "book now to lock in your returning guest rate"
+      },
+      {
+        action: "Standard rate applies for bookings under 30 days",
+        detail: "booking flow communicates when loyalty rate window is available"
+      },
+      {
+        action: "Loyalty rate visible on saved host card in trusted roster",
+        detail: "your rate with Carlos: $95/day when booked 30+ days ahead"
+      },
+      {
+        action: "Cold start prompt for guests without trusted roster",
+        detail: "loyalty rates unlock after completing a trip and being added to a host's trusted roster"
+      },
     ],
     outOfScope: [
       "Loyalty rate for guests not on the host's trusted roster — intentionally excluded",
       "Loyalty rate for bookings under 30 days advance — intentionally excluded",
       "Guest ability to negotiate loyalty rate with host — backlog",
       "Loyalty rate stacking with promotional discounts — backlog, pricing rules v2",
-      "Loyalty rate visibility before a guest is added to a host's trusted roster — intentionally excluded",
+      "Loyalty rate visibility before guest is added to trusted roster — intentionally excluded",
     ],
     atpuLink: "The loyalty rate is the financial signal that makes building a trusted roster tangibly worthwhile. A guest who saves $15/day by booking early with a trusted host has a concrete reason to plan further ahead — directly driving ATPU.",
   },

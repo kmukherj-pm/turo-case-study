@@ -55,14 +55,21 @@ function StoryCard({ story, index }) {
               <p className="text-xs font-medium uppercase tracking-widest text-gray-400 mb-4">
                 Acceptance criteria
               </p>
-              <ul className="flex flex-col gap-3 list-none p-0">
+              <ul style={{listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '12px'}}>
                 {story.criteria.map((c, i) => (
-                  <li key={i} className="flex items-start gap-3">
-                    <span
-                      className="rounded-full flex-shrink-0 mt-2"
-                      style={{width: '6px', height: '6px', background: color, minWidth: '6px'}}
-                    ></span>
-                    <span className="text-sm text-gray-600 leading-relaxed">{c}</span>
+                  <li key={i} style={{display: 'flex', alignItems: 'flex-start', gap: '12px'}}>
+                    <span style={{width: '6px', height: '6px', borderRadius: '50%', background: color, flexShrink: 0, marginTop: '6px'}}></span>
+                    <span style={{fontSize: '14px', color: '#555', lineHeight: 1.6}}>
+                      {typeof c === 'string'
+                        ? c
+                        : (
+                          <>
+                            <span style={{fontWeight: 600, color: '#231F20'}}>{c.action}</span>
+                            {c.detail && <span style={{color: '#666'}}> — {c.detail}</span>}
+                          </>
+                        )
+                      }
+                    </span>
                   </li>
                 ))}
               </ul>

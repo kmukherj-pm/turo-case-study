@@ -392,6 +392,9 @@ Thank you. I'm happy to take any questions.
 
 "Remote work fundamentally changed this persona from niche to mainstream. Post-2020 the population of people living across cities without car ownership has grown significantly. And the ATPU math is compelling — one nomad with trusted hosts in three cities could represent more lifetime trips than six Wanderlust travelers combined. We're not trying to serve everyone with this roadmap. We're trying to find the segment with the highest ATPU ceiling and build the infrastructure to capture them. Stories 1 through 5 benefit the whole platform anyway — we're not betting the whole quarter on the nomad."
 
+Napkin math:
+There are roughly 20 million remote workers in the US post-2020. Even a conservative slice of that — location-flexible, no car ownership, app-native — represents hundreds of thousands of potential high-ATPU guests. And the math is compelling — one nomad generating 20 trips a year is worth 5-6 Wanderlust travelers in lifetime value. We don't need to capture the whole segment to move the needle meaningfully on ATPU.
+
 ---
 
 **Q3: "How do stories 8 and 9 ship in one quarter?"**

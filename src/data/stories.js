@@ -223,6 +223,10 @@ export const stories = [
         action: "Web trusted roster surfaces upcoming availability across all saved hosts",
         detail: "single calendar view — useful for nomad guests planning ahead on a laptop"
       },
+      {
+        action: "Guest receives loyalty rate discovery notification when saving a host",
+        detail: "only surfaces once stories 8 and 9 are live — 'book Carlos 30+ days in advance to unlock your $95/day returning guest rate'"
+      },
     ],
     outOfScope: [
       "Saving a host without a completed trip — intentionally excluded",

@@ -150,107 +150,87 @@ Let's go through them."
 
 **STORY 1 — TRIP COMPANION**
 
-The moment: I forgot to fuel up. I got lost. I returned late and didn't know if I'd been charged. None of that needed to happen.
+Story 1 — trip companion. I forgot to fuel up, got lost, and returned late without knowing if I'd been charged. None of that needed to happen — Turo had all the information to prevent every one of those moments. 
 
-The product decision: Contextual nudges timed to guest needs — not Turo's operational checkboxes. Fuel at 90 minutes. Return buffer at 60. Grace period transparency the moment the clock starts. Host-verified coordinates at trip start.
+Contextual nudges timed to the guest — fuel reminder at 90 minutes, return buffer at 60, grace period transparency the moment the clock starts, host-verified coordinates at pickup. A product that's watching out for you, not managing its own operations.
 
-The key line: "Turo had all the information to prevent every one of those moments. This story uses it."
-
-Transition: "But a great guest experience needs a responsive host. That's story 2."
+But a great guest experience also needs a responsive host. That's story 2.
 
 ---
 
 **STORY 2 — HOST RESPONSIVENESS TOOLKIT**
 
-The moment: I was lost. I messaged the host. 15 minutes of silence.
+Story 2 — host responsiveness toolkit. I was lost. I messaged the host. 15 minutes of silence. Host responsiveness fails because opening the app creates friction — a host in a meeting, at the gym, or with another guest won't stop what they're doing to open Turo. 
 
-The product decision: Quick-reply directly from the iOS notification action or Android direct reply — no need to open the app. Two seconds, phone stays in pocket. This is a standard platform pattern — WhatsApp, Slack, iMessage all use it.
+This story removes that friction entirely. Quick-reply directly from the iOS notification or Android direct reply — two seconds. WhatsApp, Slack, iMessage all use this pattern. We're bringing it to Turo.
 
-The key line: "Host responsiveness fails because opening the app creates friction. We remove the friction."
-
-Transition: "But responsiveness starts before pickup. That's story 3."
+But responsiveness is just the start — personalized communication is where the relationship begins. That's story 3.
 
 ---
 
 **STORY 3 — HOST BRIEFING CARD**
 
-The moment: The host didn't know it was my first trip. Turo did. That information never reached him.
+Story 3 — host briefing card. The host didn't know it was my first trip. Turo did. That information never reached him. 
 
-The product decision: A push notification 2 hours before pickup with guest context — trip number, garaged cars, rating, first-timer flag. And for first-timers, an AI-generated welcome message the host can send in one tap. Editable, personal, effortless. And because the host is writing it — they can add the details that matter. If the parking location is tricky, they add a landmark. If the lockbox has a quirk, they mention it. The AI drafts the warmth, the host adds the local knowledge.
+Two hours before pickup, the host gets a push notification — my trip number, my garaged cars from prior trips, my rating, and a first-timer flag. Enough context to show up differently. And for first-timers — an AI-generated welcome message, one tap to send, editable before it goes. The AI drafts the warmth, the host adds the local knowledge — if the parking spot is tricky, they add a landmark, if the lockbox has a quirk, they mention it. This is the AI moment in this roadmap — not a complex system, just taking data we already have and turning it into a warmer human interaction.
 
-The key line: "This is the AI moment in the roadmap — not a complex system, just taking data we already have and turning it into a warmer human interaction."
-
-Transition: "Now the trip is great. Let's capture what the guest loved. Story 4."
+The trip is now great. Let's capture what the guest loved. Story 4.
 
 ---
 
 **STORY 4 — ENRICHED POST-TRIP REVIEW**
 
-The moment: I got a generic 1-5 star review. It told Turo almost nothing useful about whether I'd come back.
+Story 4 — enriched post-trip review. I got a generic 1-5 star review survey after my trip. It told Turo almost nothing useful about whether I'd come back. 
 
-The product decision: Two additive questions after the existing star rating — how did the car feel, and would you rent from this host again. Plus a one-tap trip purpose tag. Optional, skippable, 15 seconds. The existing rating stays completely intact.
+Two additive questions after the existing star rating — how did the car feel, and would you rent from this host again. Plus a one-tap trip purpose tag. Optional, skippable, 15 seconds. The existing rating stays completely intact. This isn't replacing the review system — it's adding the signals that tell us whether a guest is on a path to becoming a high-ATPU repeat booker. And it's the data foundation that powers every story that follows.
 
-The key line: "This isn't replacing the review system. It's adding the two signals that tell us whether a guest is on a path to becoming a high-ATPU repeat booker."
-
-Transition: "Now we have the signal. Let's use it. Story 5."
+Now we have the signal. Let's use it. Story 5.
 
 ---
 
 **STORY 5 — POST-TRIP RE-ENGAGEMENT**
 
-The moment: Turo went quiet after my trip. The experience was warm. The window closed.
+Story 5 — post-trip re-engagement. After my trip Turo went quiet. The experience was warm. The window closed. 
 
-The product decision: A single re-engagement notification within 24 hours — but only for positive trips. Loved the car or would definitely rent the host again. Pre-populated rebook with dates based on prior booking cadence. Sent once, never spammed.
+A single re-engagement notification within 24 hours — but only for positive trips. Loved the car or would definitely rent the host again. Pre-populated rebook with dates based on prior booking cadence. Sent once, never spammed. We have a window before the memory fades — this catches the guest while the relationship is warmest.
 
-The key line: "We have a 1-2 month window before the memory fades. This catches the guest while the relationship is warmest."
-
-Transition: "Now we're re-engaging guests. Let's give them somewhere to go. Story 6."
+Now we're re-engaging guests. Let's give them somewhere to go. Story 6.
 
 ---
 
 **STORY 6 — TRUSTED ROSTER**
 
-The moment: After a great trip, there's no easy way to say "I want to come back to this host."
+Story 6 — trusted roster. After a great trip there's no easy way to say I want to come back to this host. A save this host prompt surfaces immediately after a positive enriched review — but only after a completed trip. The relationship must be earned through experience, not browsing. This introduces the trusted roster — the guest's personal mobility network on Turo. A guest with three trusted hosts in their city doesn't have a rental app. They have a mobility network.
 
-The product decision: A save this host prompt surfaces immediately after a positive enriched review. Host save only available after a completed trip — the relationship must be earned through experience, not browsing. This introduces the trusted roster — the guest's personal mobility network on Turo.
-
-The key line: "A guest with three trusted hosts in their city doesn't have a rental app. They have a mobility network."
-
-Transition: "The garage is the car-side of that network. Story 7."
+The garage is the car side of that network. Story 7.
 
 ---
 
 **STORY 7 — YOUR GARAGE AND TRUSTED REBOOK**
 
-The moment: I drove a Subaru Outback and loved it. There's no easy way to get back to it.
+Story 7 — your garage and trusted rebook. I drove a Subaru Outback and loved it. There's no easy way to get back to it. 
 
-The product decision: A garage filter within the existing favorites tab — not a new feature, an enrichment of what already exists. Driven cars populate automatically. And when both a saved host and a garaged car are available — one tap rebooks the whole thing. Car, host, dates, protection plan. Done.
+A garage filter within the existing favorites tab — not a new feature, an enrichment of what already exists. Driven cars populate automatically, no guest action required. And when both a saved host and a garaged car are available — one tap rebooks the whole thing. Car, host, dates, protection plan. Done. Rebooking that feels like texting a friend, not starting a search from scratch.
 
-The key line: "Rebooking that feels like texting a friend, not starting a search from scratch."
-
-Transition: "Now let's make the relationship financially rewarding for both sides. Stories 8 and 9."
+Now let's make the relationship financially rewarding for both sides. Stories 8 and 9.
 
 ---
 
 **STORY 8 — LOYALTY PRICING — HOST**
 
-The moment: Hosts have returning guests they count on. Turo gives them no tools to reward or prioritize them.
+Story 8 — loyalty pricing for returning guests, host side. Hosts have returning guests they count on. Today Turo gives them no tools to reward or prioritize them. 
 
-The product decision: All-Star hosts only. A set-and-forget loyalty discount between 5 and 20 percent — applies automatically when a trusted roster guest books 30 or more days in advance. The host sets it once and the system does the rest. ROI signal on the dashboard shows whether it's working.
+All-Star hosts only. A set-and-forget loyalty discount between 5 and 20 percent — applies automatically when a trusted roster guest books 30 or more days in advance. The host sets it once, the system does the rest. A small rate reduction in exchange for advance booking certainty. Rational economics for any micro-fleet operator.
 
-The key line: "A small rate reduction in exchange for advance booking certainty. Rational economics for any micro-fleet operator."
-
-Transition: "And the guest side of that same transaction. Story 9."
+And the guest side of that same transaction. Story 9.
 
 ---
 
 **STORY 9 — EARLY BOOKING LOYALTY RATE — GUEST**
 
-The moment: Loyalty should feel like a reward, not a search for a coupon code.
+Story 9 — early booking loyalty rate, guest side. Loyalty should feel like a reward, not a search for a coupon code. 
 
-The product decision: When a trusted roster guest books 30 or more days out, the loyalty rate applies automatically. No friction. The booking flow surfaces the standard rate, the loyalty rate, and the saving — your returning guest rate: $95 a day, you save $15. The notification that drives this: "Carlos has his Subaru available in November — book now to lock in your returning guest rate."
-
-The key line: "The loyalty rate is the financial signal that makes building a trusted roster tangibly worthwhile."
+When a trusted roster guest books 30 or more days out, the loyalty rate applies automatically. No friction. The booking flow surfaces the standard rate, the loyalty rate, and the saving — your returning guest rate, $95 a day, you save $15. The notification that drives this: Carlos has his Subaru available in July — book now to lock in your returning guest rate. The loyalty rate is the financial signal that makes building a trusted roster tangibly worthwhile.
 
 ---
 

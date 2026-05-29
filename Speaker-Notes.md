@@ -50,7 +50,7 @@ Turo's next product frontier is loyalty. Not acquisition. Not supply. Loyalty. A
 
 Two data points that tell the whole story.
 
-4.9 stars on the App Store. 684,000 ratings. Editors Choice on Google Play. By any measure, Turo has built one of the best booking experiences in the industry. Guests love discovering cars, they love the selection, they love how easy it is to book.
+4.9 stars on the App Store. 684K ratings. Editors Choice on Google Play. By any measure, Turo has built one of the best booking experiences in the industry. Guests love discovering cars, they love the selection, they love how easy it is to book.
 
 But then there's Reddit. Host radio silence. Surprise charges. Post-trip disputes. The product that shows up after checkout is a different product from the one that earned 4.9 stars.
 
@@ -58,11 +58,11 @@ This gap between App Store ratings and Reddit complaints isn't unique to Turo by
 
 So when I look at the opportunity I see three gaps.
 
-An experience gap — the trip itself, from pickup through return, has meaningful room to feel more supported. Today it's functional. There's real opportunity to make it feel genuinely guided.
+1. An experience gap — the trip itself, from pickup through return, has meaningful room to feel more supported. Today it's functional. There's real opportunity to make it feel genuinely guided.
 
-A relationship gap — Turo knows what you booked but not who you are. Car favorites exist, but those signals sit dormant. There's no host relationship layer, no understanding of why you rent, nothing that reflects your life situation.
+2. A relationship gap — Turo knows what you booked but not who you are. Car favorites exist, but those signals sit dormant. There's no host relationship layer, no understanding of why you rent, nothing that reflects your life situation.
 
-A re-engagement gap — the post-trip window is underleveraged. There's real opportunity to build a surface that catches guests while the memory is fresh.
+3. A re-engagement gap — the post-trip window is underleveraged. There's real opportunity to build a surface that catches guests while the memory is fresh.
 
 These three gaps are what the roadmap addresses. Let me show you what I actually experienced."
 

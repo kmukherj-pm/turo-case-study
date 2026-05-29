@@ -253,7 +253,7 @@ Three moments. Fuel reminder at 90 minutes — one tap to the nearest station. R
 
 No surprises. No anxiety. Just a product that's watching out for you.
 
-That's the difference between a product designed for Turo's operational needs and one designed for the guest's emotional experience."
+That's a product designed for the guest's emotional experience, not just Turo's operational needs."
 
 *[Pause. Let it land.]*
 
@@ -281,7 +281,7 @@ This is what I wished had happened at 10am last week."
 
 "This is where the relationship infrastructure becomes a rebooking engine.
 
-Your garage — every car you've driven, populated automatically. Car feel rating from the enriched review. One-tap rebook shortcut. The Subaru is available this weekend at your loyalty rate. The Tacoma isn't — but you can find other dates.
+Your garage — every car you've driven, populated automatically. Car feel rating from the enriched review. One-tap rebook shortcut. The Subaru is available this weekend. The Tacoma isn't — but you can find other dates.
 
 Your trusted roster — Carlos, All-Star host, responds in under 5 minutes. Your loyalty rate is $95 a day when you book 30 days out.
 
@@ -291,7 +291,7 @@ That's what rebooking feels like when the product knows you."
 
 *[Pause. Let the room absorb it.]*
 
-"Let me show you how we'd know if it's working."
+"Let me show you how we'd know if all of this is working."
 
 ---
 

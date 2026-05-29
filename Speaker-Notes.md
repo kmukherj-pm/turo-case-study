@@ -230,7 +230,7 @@ And the guest side of that same transaction. Story 9.
 
 Story 9 — early booking loyalty rate, guest side. Loyalty should feel like a reward, not a search for a coupon code. 
 
-When a trusted roster guest books 30 or more days out, the loyalty rate applies automatically. No friction. The booking flow surfaces the standard rate, the loyalty rate, and the saving — your returning guest rate, $95 a day, you save $15. The notification that drives this: Carlos has his Subaru available in July — book now to lock in your returning guest rate. The loyalty rate is the financial signal that makes building a trusted roster tangibly worthwhile.
+When a trusted roster guest books 30 or more days out, the loyalty rate applies automatically. No friction. The booking flow surfaces the standard rate, the loyalty rate, and the saving — your returning guest rate, $95 a day, you save $15. The notification that drives this is: Carlos has his Subaru available in July — book now to lock in your returning guest rate. Guests discover their loyalty rate the moment they save a host — so by the time they're ready to book, the incentive is already planted. The loyalty rate is the financial signal that makes building a trusted roster tangibly worthwhile. 
 
 ---
 

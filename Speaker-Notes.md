@@ -130,7 +130,7 @@ Host quality directly drives rebooking. A transactional pickup or radio silence 
 
 I've called out a couple of other assumptions which will make more sense once we get to the relevant stories. 
 
-One honest gap — I audited the guest experience firsthand but didn't complete a full host onboarding flow. Some host-facing stories may partially exist today. I'd recommend a product audit before sprint planning on those specifically.
+One honest gap — I audited the guest experience firsthand but didn't complete a full host onboarding flow. Some host-facing stories may partially exist today. As part of due diligence on this roadmap, I'd want to audit the host-facing product before committing those stories to a sprint — some may partially exist today.
 
 Let's get into the roadmap."
 

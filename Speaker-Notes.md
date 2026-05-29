@@ -98,33 +98,39 @@ That's what this roadmap does."
 
 "So who are we building this for?
 
-I considered three personas. The Digital Nomad — lives across cities, never owns a car, needs mobility wherever they land. The Newly Relocated — just moved somewhere new, building routines, needs a car episodically. And the Wanderlust Traveler — 5-6 trips a year, destination markets, airport delivery.
+I considered three personas. 
+
+1. The Digital Nomad — lives across cities, never owns a car, needs mobility wherever they land.
+2. The Newly Relocated — just moved somewhere new, building routines, needs a car episodically.
+3. The Wanderlust Traveler — 5-6 trips a year, destination markets, airport delivery.
 
 I chose the Digital Nomad. Here's why.
 
-The Wanderlust Traveler is the obvious answer. They're aspirational, they fit Turo's brand. But when I stress-tested the relationship thesis against that persona it broke down. They rarely return to the same city. The host relationship is geographically locked. You can't rebook a Sedona host from San Francisco on a whim.
+The Wanderlust Traveler is the obvious answer. They're aspirational, they fit Turo's brand. But when I stress-tested the relationship thesis against that persona it broke down. They rarely return to the same city. The host relationship is geographically locked. You can't rebook a Seattle host from San Francisco on a whim.
 
-The nomad is different. They've structurally opted out of car ownership — not temporarily, but as a lifestyle. They rotate between cities. They're not a churn risk the moment they settle down and buy a Honda. And their ATPU ceiling is dramatically higher — a nomad with trusted hosts in three cities could generate 20 to 40 trips a year. A Wanderlust traveler caps at 5 or 6. Same acquisition cost. Dramatically higher lifetime value.
+The nomad is different. They've structurally opted out of car ownership — not temporarily, but as a lifestyle. They rotate between cities. Car ownership isn't in their plan. And their ATPU ceiling is dramatically higher — a nomad with trusted hosts in three cities could generate 20 to 40 trips a year. A Wanderlust traveler caps at 5 or 6. Same acquisition cost. Dramatically higher lifetime value.
 
-Worth noting — stories 1 through 5 lift every guest segment. The trip companion, host responsiveness, enriched review, re-engagement — every guest benefits from those. Stories 6 through 9 are where we make a deliberate bet on the nomad. That's where the relationship infrastructure lives.
+Worth noting — that the first 5 user stories in the roadmao are platform improvements that lift every guest segment. The remaining stories are where we make a deliberate bet on the nomad. That's where the relationship infrastructure lives.
 
 Now — the problem statement.
 
 Guests who are building a life in motion have no way to turn a great trip into a trusted mobility routine. Turo knows what you booked — but not who you are. There's no host relationship layer, no understanding of why you rent, nothing that reflects your life situation. The result: every booking still feels like the first one.
 
-The hypothesis is simple. If we make every trip feel genuinely supported, capture the signals that tell us what guests love, and help them build a trusted roster they can act on effortlessly — we believe ATPU for this segment will increase materially within one quarter.
+(scroll) The hypothesis is simple. If we make every trip feel genuinely supported, capture the signals that tell us what guests love, and help them build a trusted roster they can act on effortlessly — we believe ATPU for this segment will increase materially within one quarter.
 
-Two leading indicators tell us within 30 days if it's working — trip 2 conversion rate, and post-trip host save rate. I'll come back to measurement in detail later.
+Two leading indicators tell us if it's working — trip 2 conversion rate, and post-trip host save rate. I'll come back to measurement in detail later.
 
 Before I move to the roadmap — a few assumptions I want to name explicitly.
 
 The nomad segment is large and growing. Remote work made this mainstream, not niche.
 
-The biggest ATPU opportunity lives after checkout. The booking experience is great — that's where we need to invest next.
+The biggest ATPU opportunity lives after checkout. The booking experience is great — the post booking experience is where we need to invest next.
 
 Host quality directly drives rebooking. A transactional pickup or radio silence mid-trip meaningfully reduces the probability of a second booking.
 
-And one honest gap — I audited the guest experience firsthand but didn't complete a full host onboarding flow. Some host-facing stories may partially exist today. I'd recommend a product audit before sprint planning on those specifically.
+I've called out a couple of other assumptions which will make more sense once we get to the relevant stories. 
+
+One honest gap — I audited the guest experience firsthand but didn't complete a full host onboarding flow. Some host-facing stories may partially exist today. I'd recommend a product audit before sprint planning on those specifically.
 
 Let's get into the roadmap."
 

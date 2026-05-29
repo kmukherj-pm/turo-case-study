@@ -240,20 +240,20 @@ When a trusted roster guest books 30 or more days out, the loyalty rate applies 
 
 ## PROTOTYPES — 6 minutes
 
-"I built three prototypes for the highest-impact stories. These aren't wireframes — they're interactive. Let me walk you through them."
+I built three interactive prototypes for the highest-impact stories. These aren't wireframes — they're . Let me walk you through them.
 
 ---
 
 **PROTOTYPE 1 — TRIP COMPANION**
 *[Navigate to prototypes section, click Story 1]*
 
-"This is the trip I took last week — here's what it should have felt like.
+This is the trip I took last week — here's what it should have felt like.
 
 Three moments. Fuel reminder at 90 minutes — one tap to the nearest station. Return buffer at 60 minutes — surfaces the grace period policy before anxiety sets in. And at the moment the trip ends — you're not late yet. Here's exactly when your grace period expires. Here's one tap to extend if you need it.
 
 No surprises. No anxiety. Just a product that's watching out for you.
 
-That's a product designed for the guest's emotional experience, not just Turo's operational needs."
+That's a product designed for the guest's emotional experience, not just Turo's operational needs.
 
 *[Pause. Let it land.]*
 
@@ -262,7 +262,7 @@ That's a product designed for the guest's emotional experience, not just Turo's 
 **PROTOTYPE 2 — HOST BRIEFING CARD**
 *[Click Story 3]*
 
-"Here's what the host should have seen two hours before I arrived.
+Here's what the host should have seen two hours before I arrived.
 
 First — the notification. My name, my trip number, the first-timer flag. Enough context to show up differently.
 
@@ -270,7 +270,7 @@ Then — the briefing card. Trip history, car preferences, guest rating. Private
 
 And for first-timers — an AI-generated welcome message. One tap to send. Editable before it goes. And because the host is writing it — they can add the details that matter. If the parking location is tricky, they add a landmark. If the lockbox has a quirk, they mention it. The AI drafts the warmth, the host adds the local knowledge.
 
-This is what I wished had happened at 10am last week."
+This is what I wished had happened at 10am last week.
 
 *[Pause.]*
 
@@ -279,7 +279,7 @@ This is what I wished had happened at 10am last week."
 **PROTOTYPE 3 — YOUR GARAGE AND TRUSTED REBOOK**
 *[Click Story 7]*
 
-"This is where the relationship infrastructure becomes a rebooking engine.
+This is where the relationship infrastructure becomes a rebooking engine.
 
 Your garage — every car you've driven, populated automatically. Car feel rating from the enriched review. One-tap rebook shortcut. The Subaru is available this weekend. The Tacoma isn't — but you can find other dates.
 
@@ -287,11 +287,11 @@ Your trusted roster — Carlos, All-Star host, responds in under 5 minutes. Your
 
 And the payoff — one-tap rebook. Car, host, dates, protection plan. Pre-filled from your last trip. One tap. Confirmed.
 
-That's what rebooking feels like when the product knows you."
+That's what rebooking feels like when the product knows you.
 
 *[Pause. Let the room absorb it.]*
 
-"Let me show you how we'd know if all of this is working."
+Let me show you how we'd know if all of this is working.
 
 ---
 
@@ -335,29 +335,27 @@ At 30 days — in-trip response cycle time trending down, enriched review comple
 
 At 60 days — trip 2 conversion rate directionally positive versus control, trusted rebook rate measurable for early cohorts, loyalty pricing enabled by All-Star hosts with adoption target set in sprint planning.
 
-At 90 days — ATPU movement visible for the nomad segment. That's the number we came here to move."
+At 90 days — ATPU movement visible for the nomad segment. That's the number we came here to move.
 
 ---
 
 ## FUTURE BETS — 1 minute
 
-"I want to spend just a minute on where this roadmap leads — not because it's in scope for Q1, but because the infrastructure we're building unlocks some genuinely interesting bets.
+I want to spend just a minute on where this roadmap leads — because the infrastructure we're building unlocks some genuinely interesting bets.
 
-AI host communications — once we have enriched trip data from story 4, the host briefing card gets dramatically smarter. We're not guessing at what a guest wants anymore, we're telling the host exactly what made their last trip great.
+AI host communications — once we have enriched trip data from story 4, the host briefing card gets dramatically smarter. We're not guessing at what a guest wants anymore, we're telling the host exactly what makes a trip great for this guest.
 
-Calendar integration — post-booking calendar export for pickup, fuel, and return reminders. No permissions required, just a one-tap add to calendar. Solves the fuel problem permanently.
+Calendar integration — post-booking calendar export for pickup, fuel, and return reminders. Just a one-tap add to calendar. Solves the fuel reminder problem for guests who live by their calendar.
 
-Recurring booking — the nomad who wants their Saturday car on a schedule. This is actually the most direct ATPU driver on this list. We scoped it to Q2 because the recurring payment infrastructure is non-trivial — but story 5's booking cadence data makes it dramatically easier to build when we get there.
+Recurring booking — the nomad who wants their Saturday car on a schedule. This is actually the most direct ATPU driver on this list. We didn't scope because the recurring payment infrastructure is non-trivial — but this roadmap gives us the signal to build it.
 
-Relationship-first search — for guests with a populated trusted roster, discovery starts from their saved hosts and garaged cars, not a cold search. The longer you use Turo, the more personalized your marketplace becomes. That's a switching cost Hertz can never replicate.
-
-I'm happy to go deeper on any of these in Q&A — but let's keep moving."
+Relationship-first search — for guests with a populated trusted roster, discovery starts from their saved hosts and garaged cars, not a cold search. The longer you use Turo, the more personalized your marketplace becomes. That's personalization that is hard to replicate.
 
 ---
 
 ## CLOSING — 2 minutes
 
-"Before I open it up for questions — I want to leave you with one thought.
+Before I open it up for questions — I want to leave you with one thought.
 
 Turo has built something genuinely impressive. A marketplace that works. A booking experience that guests love. Supply that keeps growing.
 
@@ -369,13 +367,13 @@ This roadmap makes it intentional.
 
 Fix the trip so the relationship has a chance to start. Capture the signal so we know what guests love. Build the infrastructure so they can act on it. Make rebooking effortless. Reward loyalty.
 
-That's the arc."
+That's the arc.
 
 *[Hit Start on the Assemble component. Say nothing. Let it run.]*
 
 *[When "Let's build it. 🚗" appears — look up at the room.]*
 
-"Thank you. I'm happy to take any questions."
+Thank you. I'm happy to take any questions.
 
 ---
 

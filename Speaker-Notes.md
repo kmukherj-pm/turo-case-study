@@ -72,7 +72,7 @@ These three gaps are what the roadmap addresses. Let me show you what I actually
 
 "Before I wrote a single user story I booked a Subaru Outback on Turo and took a day trip. Here's what actually happened.
 
-The booking was great. Exactly what you'd expect from a 4.9-star product. Easy search, great selection, clear pricing, confident checkout. I was excited.
+The booking was mostly great easy search, good selection — though I did spend 20 minutes figuring out whether my credit card insurance covered Turo. It doesn't — but I had to find that out myself. Once I got past that, clear pricing, confident checkout. I was excited.
 
 Then I got to pickup.
 

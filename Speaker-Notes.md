@@ -72,7 +72,7 @@ These three gaps are what the roadmap addresses. Let me show you what I actually
 
 "Before I wrote a single user story I booked a Subaru Outback on Turo and took a day trip. Here's what actually happened.
 
-The booking was mostly great easy search, good selection — though I did spend 20 minutes figuring out whether my credit card insurance covered Turo. It doesn't — but I had to find that out myself. Once I got past that, clear pricing, confident checkout. I was excited.
+The booking was mostly great; easy search, good selection — though I did spend 20 minutes figuring out whether my credit card insurance covered Turo. It doesn't — but I had to find that out myself. Once I got past that, clear pricing, confident checkout. I was excited.
 
 Then I got to pickup. 
 
@@ -82,7 +82,7 @@ The host messaged me like a stranger. Perfectly pleasant — but transactional. 
 
 The lockbox was confusing. Nobody reminded me to fuel up. I did a mad rush at the last minute to find a station.
 
-At return I came back 10 minutes past the grace period. I knew about the 30 minutes — but I had no idea if those extra 10 minutes would trigger a charge. That unresolved uncertainty — did I just get charged? — is the last feeling I had about this trip. Zipcar used to pardon first-time late returns automatically. That one gesture built more loyalty than any marketing campaign.
+At return I came back 10 minutes past the grace period. I knew about the 30 minutes buffer — but I had no idea if those extra 10 minutes would trigger a charge. That unresolved uncertainty — did I just get charged? — is the last feeling I had about this trip. Zipcar used to pardon first-time late returns automatically. That one gesture built more loyalty than any marketing campaign.
 
 And then Turo went quiet. Generic 1-5 star review. No car feel question. No re-engagement prompt. Within a few weeks the memory fades.
 

@@ -53,13 +53,13 @@ export const metrics = {
     day30: [
       "In-trip response cycle time trending down",
       "Post-trip host save rate baseline established",
-      "Enriched review completion rate above 40%",
+      "Enriched review completion rate trending up",
       "Star rating distribution unchanged",
     ],
     day60: [
       "Trip 2 conversion rate directionally positive vs control",
       "Trusted rebook rate measurable for early cohorts",
-      "Loyalty pricing enabled by at least 20% of eligible All-Star hosts",
+      "Loyalty pricing feature enabled by x% of All-Star hosts ",
     ],
     day90: [
       "ATPU movement visible for nomad segment",

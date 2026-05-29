@@ -22,28 +22,28 @@ function Persona() {
               {persona.problemStatement}
             </p>
           </div>
-          <div className="p-6 border border-gray-100 rounded-lg mb-6">
-            <p className="text-sm font-medium uppercase tracking-widest mb-3" style={{color: '#A37901'}}>
-              Hypothesis
-            </p>
-            <p className="text-base text-gray-500 leading-relaxed mb-6">
-              {persona.hypothesis}
-            </p>
-            <div className="grid grid-cols-3 gap-4">
-              <div>
-                <p className="text-xs text-gray-400 uppercase tracking-widest mb-2">If we build</p>
-                <p className="text-sm text-gray-600">{persona.ifWeBuild}</p>
-              </div>
-              <div>
-                <p className="text-xs text-gray-400 uppercase tracking-widest mb-2">We expect</p>
-                <p className="text-sm text-gray-600">{persona.weExpectToSee}</p>
-              </div>
-              <div>
-                <p className="text-xs text-gray-400 uppercase tracking-widest mb-2">Leading to</p>
-                <p className="text-sm text-gray-600">{persona.leadingTo}</p>
-              </div>
+          <div className="p-6 rounded-lg mb-6" style={{background: '#1a3a2a', border: '1px solid #2a5a3a'}}>
+          <p className="text-sm font-medium uppercase tracking-widest mb-3" style={{color: '#1D9E75'}}>
+            Hypothesis
+          </p>
+          <p className="text-base leading-relaxed mb-6" style={{color: '#f5f5f5'}}>
+            {persona.hypothesis}
+          </p>
+          <div className="grid grid-cols-3 gap-4">
+            <div style={{borderTop: '1px solid #2a5a3a', paddingTop: '12px'}}>
+              <p className="text-xs uppercase tracking-widest mb-2" style={{color: '#1D9E75'}}>If we build</p>
+              <p className="text-sm" style={{color: '#ccc'}}>{persona.ifWeBuild}</p>
+            </div>
+            <div style={{borderTop: '1px solid #2a5a3a', paddingTop: '12px'}}>
+              <p className="text-xs uppercase tracking-widest mb-2" style={{color: '#1D9E75'}}>We expect</p>
+              <p className="text-sm" style={{color: '#ccc'}}>{persona.weExpectToSee}</p>
+            </div>
+            <div style={{borderTop: '1px solid #2a5a3a', paddingTop: '12px'}}>
+              <p className="text-xs uppercase tracking-widest mb-2" style={{color: '#1D9E75'}}>Leading to</p>
+              <p className="text-sm" style={{color: '#ccc'}}>{persona.leadingTo}</p>
             </div>
           </div>
+        </div>
           <div className="p-6 border border-gray-100 rounded-lg">
             <p className="text-sm font-medium uppercase tracking-widest mb-4" style={{color: '#A37901'}}>
               Key assumptions

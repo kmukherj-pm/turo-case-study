@@ -10,7 +10,6 @@ const stages = [
       '4.9 stars gave me confidence',
     ],
     quote: '"This is going to be great."',
-    storyFix: null,
   },
   {
     stage: 'Pickup',
@@ -19,12 +18,11 @@ const stages = [
     color: '#F9D96A',
     observations: [
       'Host greeted me like a stranger — no warmth',
-      'Turo never told him it was my first trip',
+      'First-timer context wasn\'t enough to activate a warm welcome',
       'Lockbox was confusing — no video guidance',
       'In-app navigation sent me to the wrong location',
     ],
     quote: '"I wish someone had told him I was new to this."',
-    storyFix: 'Stories 2 + 3',
   },
   {
     stage: 'During trip',
@@ -32,12 +30,11 @@ const stages = [
     feeling: 'Unsupported',
     color: '#D85A30',
     observations: [
-      'Got lost — host didn\'t respond for 15+ minutes',
+      'Got lost — host didn\'t respond to my message',
       'No fuel reminder — mad rush at the last minute',
       'Photo upload cluttered my camera roll',
     ],
     quote: '"Is anyone there?"',
-    storyFix: 'Stories 1 + 2',
   },
   {
     stage: 'Return',
@@ -50,7 +47,6 @@ const stages = [
       'Lockbox return was confusing',
     ],
     quote: '"Did I just get charged? I have no idea."',
-    storyFix: 'Story 1',
   },
   {
     stage: 'Post-trip',
@@ -64,7 +60,6 @@ const stages = [
       'Memory fades within weeks',
     ],
     quote: '"That was fine. I probably won\'t think about Turo again."',
-    storyFix: 'Stories 4 + 5 + 6',
   },
 ]
 
@@ -119,8 +114,8 @@ function CustomerJourney() {
                 {stage.emoji}
               </div>
               <p style={{
-                fontSize: '13px',
-                fontWeight: 600,
+                fontSize: '14px',
+                fontWeight: 700,
                 color: '#231F20',
                 margin: '0 0 4px',
                 textAlign: 'center',
@@ -128,8 +123,8 @@ function CustomerJourney() {
                 {stage.stage}
               </p>
               <p style={{
-                fontSize: '11px',
-                fontWeight: 500,
+                fontSize: '12px',
+                fontWeight: 600,
                 color: stage.color,
                 margin: '0 0 16px',
                 textAlign: 'center',
@@ -146,49 +141,45 @@ function CustomerJourney() {
                 width: '100%',
                 marginBottom: '12px',
               }}>
-                <ul style={{listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '6px'}}>
+                <ul style={{listStyle: 'none', padding: 0, margin: 0, display: 'flex', flexDirection: 'column', gap: '8px'}}>
                   {stage.observations.map((obs, j) => (
                     <li key={j} style={{
-                      fontSize: '11px',
-                      color: '#666',
+                      fontSize: '13px',
+                      color: '#555',
                       lineHeight: 1.5,
-                      paddingLeft: '12px',
+                      paddingLeft: '14px',
                       position: 'relative',
                     }}>
                       <span style={{
                         position: 'absolute',
                         left: 0,
                         color: stage.color,
+                        fontWeight: 700,
                       }}>·</span>
                       {obs}
                     </li>
                   ))}
                 </ul>
               </div>
-              <p style={{
-                fontSize: '11px',
-                color: '#aaa',
-                fontStyle: 'italic',
-                textAlign: 'center',
-                lineHeight: 1.5,
-                marginBottom: '12px',
-                padding: '0 4px',
+              <div style={{
+                width: '100%',
+                padding: '10px 12px',
+                borderRadius: '10px',
+                background: stage.color === '#888' ? '#f5f5f5' : stage.color + '15',
+                borderLeft: `3px solid ${stage.color}`,
               }}>
-                {stage.quote}
-              </p>
-              {stage.storyFix && (
-                <div style={{
-                  padding: '6px 10px',
-                  borderRadius: '20px',
-                  background: '#231F20',
-                  color: '#F9D96A',
-                  fontSize: '11px',
-                  fontWeight: 600,
-                  textAlign: 'center',
+                <p style={{
+                  fontSize: '13px',
+                  color: '#231F20',
+                  fontStyle: 'italic',
+                  fontWeight: 500,
+                  textAlign: 'left',
+                  lineHeight: 1.5,
+                  margin: 0,
                 }}>
-                  {stage.storyFix}
-                </div>
-              )}
+                  {stage.quote}
+                </p>
+              </div>
             </div>
           ))}
         </div>
@@ -205,7 +196,7 @@ function CustomerJourney() {
         gap: '32px',
       }}>
         <p style={{fontSize: '18px', fontWeight: 500, color: '#fff', margin: 0, lineHeight: 1.5, flex: 1}}>
-          "Turo has all the ingredients for a relationship product. They're just not assembling them."
+          "Turo has all the ingredients for a relationship product. They just need to be assembled."
         </p>
         <div style={{display: 'flex', gap: '24px', flexShrink: 0}}>
           {[

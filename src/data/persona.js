@@ -3,10 +3,10 @@ export const persona = {
   tagline: "Building a life in motion",
   description: "Guests who move between cities or have just landed somewhere new. No car payment, no fixed mobility routine. They need reliable transportation episodically — weekend errands, exploring neighborhoods, building a new life — without committing to ownership.",
   problemStatement: "Guests who are building a life in motion have no way to turn a great trip into a trusted mobility routine. Turo knows what you booked — but not who you are. There's no host relationship layer, no understanding of why you rent, and no product experience that reflects your life situation. The result: every booking still feels like the first one.",
-  hypothesis: "If we help nomad guests build a trusted roster — a host they love and a car they feel at home in — and make acting on that roster effortless, we believe ATPU for this segment will increase materially within one quarter.",
-  ifWeBuild: "Relationship infrastructure — host affinity, car affinity, trusted rebook, and loyalty pricing",
-  weExpectToSee: "Trip 2 conversion rate and post-trip host save rate increase within 30 days",
-  leadingTo: "Higher segment ATPU as guests settle into a trusted mobility routine",
+  hypothesis: "If we make every trip feel genuinely supported, capture the signals that tell us what guests love, and help them build a trusted roster they can act on effortlessly — we believe ATPU for the nomad segment will increase materially within one quarter.",
+  ifWeBuild: "A supported trip experience, enriched post-trip signals, and relationship infrastructure that makes rebooking effortless",
+  weExpectToSee: "Better trips, more responsive hosts, and guests saving hosts after completing a trip",
+  leadingTo: "Higher nomad segment ATPU as guests move from one-off rentals to a trusted mobility routine",
   assumptions: [
   {
     label: "Nomad segment is large and growing",
@@ -80,7 +80,7 @@ whyNotWanderlust: [
 }
 
 export const aboutMe = {
-  nomadStory: "I've lived across multiple cities, never owned a car, and spent years figuring out mobility from scratch every time I moved. Zipcar/Modo/EVO member, Hertz regular, and now a first-time Turo guest. I know what it feels like to wish someone had just remembered you.",
+  nomadStory: "I've lived across multiple cities, never owned a car, and figured out mobility from scratch every time I moved. Zipcar for the magic one-text extension. Evo and Modo for the car that was always just across the street. Hertz for the agents who remembered my preferences. Each one solved a piece of the puzzle — but none of them put it all together. That's what Turo can be.",
   professionalThreads: [
     {
       role: "Staff PM — Intuit, CRM",

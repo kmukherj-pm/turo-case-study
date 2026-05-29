@@ -10,6 +10,7 @@ import Persona from './components/Persona'
 import Roadmap from './components/Roadmap'
 import Metrics from './components/Metrics'
 import FutureBets from './components/FutureBets'
+import Assemble from './components/Assemble'
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
 </div>
         <Metrics />
         <FutureBets />
+        <Assemble />
       </main>
     </div>
   )

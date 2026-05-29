@@ -7,10 +7,10 @@ function Problem() {
       <div className="grid grid-cols-2 gap-24 mb-16">
         <div>
           <h2 className="text-4xl font-medium mb-8" style={{color: '#231F20'}}>
-            A world-class booking product. An almost nonexistent post-booking product.
+            An excellent booking product with a big opportunity to create guest loyalty.
           </h2>
           <p className="text-lg text-gray-500 leading-relaxed">
-            Turo has built one of the best booking experiences in the industry. But the product ends at checkout — and everything that drives a guest back for a second trip is largely undesigned.
+            Turo has built one of the best booking experiences in the industry. Everything that drives a guest back for a second trip — and keeps them coming back — is largely an untapped opportunity.
           </p>
         </div>
         <div className="flex flex-col gap-6">
@@ -29,15 +29,15 @@ function Problem() {
       <div className="grid grid-cols-3 gap-8">
         <div className="border-t-2 pt-6" style={{borderColor: '#F9D96A'}}>
           <p className="text-sm font-medium mb-3" style={{color: '#231F20'}}>Experience gap</p>
-          <p className="text-sm text-gray-500 leading-relaxed">The trip itself — pickup, mid-trip support, return — is almost entirely undesigned. Turo's product is optimized for Turo's operational needs, not the guest's emotional experience.</p>
+          <p className="text-sm text-gray-500 leading-relaxed">The trip itself — pickup, mid-trip support, return — is where the biggest loyalty opportunity lives. Today the experience is functional, but there's meaningful room to make it feel genuinely supported.</p>
         </div>
         <div className="border-t-2 pt-6" style={{borderColor: '#F9D96A'}}>
           <p className="text-sm font-medium mb-3" style={{color: '#231F20'}}>Relationship gap</p>
-          <p className="text-sm text-gray-500 leading-relaxed">Turo knows what you booked but not who you are. There's no host relationship layer, no car affinity signal, no product experience that reflects a guest's life situation.</p>
+          <p className="text-sm text-gray-500 leading-relaxed">Turo knows what you booked but not who you are. Car favorites exist — but the signals sit dormant. There's no host relationship layer, no re-engagement surface, no product experience that reflects why you rent or what would bring you back.</p>
         </div>
         <div className="border-t-2 pt-6" style={{borderColor: '#F9D96A'}}>
           <p className="text-sm font-medium mb-3" style={{color: '#231F20'}}>Re-engagement gap</p>
-          <p className="text-sm text-gray-500 leading-relaxed">The post-trip window — when the experience is warmest and most actionable — closes with almost no re-engagement surface. Turo goes quiet exactly when it should speak up.</p>
+          <p className="text-sm text-gray-500 leading-relaxed">The post-trip window — when the experience is warmest and most actionable — is an underleveraged opportunity. There's real room to build a re-engagement surface that catches guests while the memory is fresh.</p>
         </div>
       </div>
     </div>

@@ -226,7 +226,7 @@ export const stories = [
     ],
     outOfScope: [
       "Saving a host without a completed trip — intentionally excluded",
-      "Host visibility into which guests have saved them — input to stories 8 and 9",
+      "Individual guest visibility for hosts — v1 shows aggregate count only ('2 guests have added you to their trusted roster'), named guest visibility unlocks in v2 once we validate the roster drives rebooking behavior",
       "Saved host availability alerts for specific dates — requires calendar integration, backlog",
       "Mutual connection or social features — intentionally excluded",
       "Suggested hosts based on trusted roster affinity — backlog, recommendations engine v2",
@@ -305,6 +305,14 @@ export const stories = [
     persona: "host",
     statement: "As a host, I want to set a preferred rate for guests on my trusted roster who book early so that I can reward genuine relationships and improve advance booking certainty without managing it manually.",
     criteria: [
+      {
+        action: "Host sees trusted roster education card before enabling loyalty pricing",
+        detail: "introduces the concept, shows aggregate count of guests who have saved them — 'X guests have added you to their trusted roster' — without revealing specific names"
+      },
+      {
+        action: "Aggregate trusted roster count updates on host dashboard as more guests save them",
+        detail: "motivates hosts to invest in returning guest relationships before named visibility unlocks in v2"
+      },
       {
         action: "Loyalty pricing available exclusively to All-Star hosts",
         detail: "non All-Star hosts do not see the feature in their dashboard"

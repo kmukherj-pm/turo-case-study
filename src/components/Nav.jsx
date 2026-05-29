@@ -4,9 +4,10 @@ const sections = [
   { id: 'journey', label: 'My trip' },
   { id: 'persona', label: 'Persona' },
   { id: 'roadmap', label: 'Roadmap' },
+  { id: 'prototypes', label: 'Prototypes' },
   { id: 'metrics', label: 'Metrics' },
   { id: 'future', label: 'Future bets' },
-  { id: 'prototypes', label: 'Prototypes' },
+  { id: 'assemble', label: 'Assemble' },
 ]
 
 function Nav() {

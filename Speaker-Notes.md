@@ -74,15 +74,13 @@ These three gaps are what the roadmap addresses. Let me show you what I actually
 
 The booking was mostly great easy search, good selection — though I did spend 20 minutes figuring out whether my credit card insurance covered Turo. It doesn't — but I had to find that out myself. Once I got past that, clear pricing, confident checkout. I was excited.
 
-Then I got to pickup.
+Then I got to pickup. 
 
-The host greeted me like a stranger. Perfectly pleasant — but transactional. No warmth, no welcome. Turo had all the context to make that moment special — it was my first trip, I'd booked a Subaru, I was arriving at 10am — and none of it reached him. First-timer context existed but wasn't enough to activate a warm welcome.
+The in-app navigation sent me to the wrong pickiup location. I was lost. I messaged the host. Radio silence. I figured it out myself — but I shouldn't have had to.
 
-The lockbox was confusing. The in-app navigation sent me to the wrong location.
+The host messaged me like a stranger. Perfectly pleasant — but transactional. No warmth, no welcome. Turo had all the context to make that moment special — it was my first trip, I'd booked a Subaru, I was arriving at 10am — and none of it seemed to reach him. First-timer context existed but wasn't enough to activate a warm welcome.
 
-During the trip I got lost. I messaged the host. Radio silence for 15 minutes. I figured it out myself — but I shouldn't have had to.
-
-Nobody reminded me to fuel up. I did a mad rush at the last minute to find a station.
+The lockbox was confusing. Nobody reminded me to fuel up. I did a mad rush at the last minute to find a station.
 
 At return I came back 10 minutes past the grace period. I knew about the 30 minutes — but I had no idea if those extra 10 minutes would trigger a charge. That unresolved uncertainty — did I just get charged? — is the last feeling I had about this trip. Zipcar used to pardon first-time late returns automatically. That one gesture built more loyalty than any marketing campaign.
 

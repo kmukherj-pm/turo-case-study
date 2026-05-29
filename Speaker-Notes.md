@@ -297,13 +297,11 @@ That's what rebooking feels like when the product knows you."
 
 ## METRICS — 5 minutes
 
-"Let me walk you through how we'd measure success — and be honest about what we can and can't see quickly.
+Let me walk you through how we'd measure success — and be honest about what we can and can't see quickly.
 
 ATPU is a lagging metric. It moves slowly. A guest who trips in week 4 of the quarter won't rebook until week 8 or 10 at the earliest. If we wait for ATPU to move before we know if the roadmap is working, we've waited too long to course correct.
 
 So we need leading indicators. Signals that tell us within 30 days of each feature shipping whether the relationship infrastructure is taking hold.
-
-One important note on timing — the 30, 60, and 90 day milestones I'm about to walk through are post-ship of the relevant features, not calendar days from quarter start. Story 1 ships, we start the 30-day clock on trip satisfaction signals. Story 4 ships, we start the clock on enriched review completion. Each feature has its own measurement window.
 
 Here's the pyramid.
 
@@ -330,6 +328,8 @@ Host response rate must stay above 95%. This is hygiene, not a success metric. I
 Star rating distribution must not change after story 4 ships. The enriched review is additive — if it's depressing star ratings we have an unintended consequence to fix immediately.
 
 General search supply availability must stay healthy. Stories 8 and 9 give All-Star hosts tools to offer early access to returning guests — but we never want that to meaningfully reduce what's available to everyone else. We monitor the percentage of All-Star inventory claimed through loyalty pricing before it hits general search. If that number gets too high, we tighten the eligibility rules.
+
+One important note on timing — the 30, 60, and 90 day milestones I'm about to walk through are post-ship of the relevant features, not calendar days from quarter start. Story 1 ships, we start the 30-day clock on trip satisfaction signals. Story 4 ships, we start the clock on enriched review completion. Each feature has its own measurement window.
 
 At 30 days — in-trip response cycle time trending down, enriched review completion rate trending up from baseline, star rating distribution unchanged.
 

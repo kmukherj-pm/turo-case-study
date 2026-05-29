@@ -1,20 +1,21 @@
 # Turo Case Study — Speaker Notes
 ## Lead PM, Host Product — Panel Presentation
-### 50 minutes including Q&A
+### 60 minutes including Q&A
 
 ---
 
 ## TIMING GUIDE
+- Plesentaries : 5 min
 - Opening: 2 min
 - Problem: 3 min
-- My trip: 4 min
+- My trip: 3 min
 - Persona and strategy: 5 min
-- Roadmap: 15 min
-- Prototypes: 6 min
+- Roadmap: 12 min
+- Prototypes: 4 min
 - Metrics: 5 min
-- Future bets: 1 min
-- Closing: 2 min
-- Q&A: 7 min
+- Future bets: 2 min
+- Closing: 1 min
+- Q&A: 18 min
 
 ---
 

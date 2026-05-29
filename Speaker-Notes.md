@@ -20,7 +20,9 @@
 
 ## OPENING — 2 minutes
 
-"Before I get into the roadmap, I want to tell you why I feel so strongly about it.
+"Good afternoon everyone, its great to be here with you.
+
+Before I get into the roadmap, I want to tell you why I feel so strongly about it.
 
 I've lived across multiple cities and never owned a car. Zipcar for the magic one-text extension. Evo and Modo for the car that was always just across the street. Hertz for the agents who remembered my preferences. And last week — a Subaru Outback on Turo for a day trip I took specifically to understand this product from the inside.
 
@@ -30,7 +32,7 @@ That's what this roadmap is about.
 
 I'm not here to tell you Turo has a problem. I'm here to tell you Turo has an opportunity — and I think it's one of the most interesting product opportunities in consumer mobility right now.
 
-Turo has built an exceptional booking experience. 4.9 stars. 684,000 ratings. The product works. Guests find cars, book them, and show up.
+Turo has built an exceptional booking experience. The product works. Guests find cars, book them, and show up.
 
 But here's the question I kept asking myself on that trip last week — what happens after the booking? What happens during the trip when something goes wrong? What happens after I return the car and the experience is still warm in my memory?
 

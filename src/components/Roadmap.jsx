@@ -26,12 +26,12 @@ function Roadmap() {
             {
               phase: 'During trip first',
               color: '#7F77DD',
-              rationale: 'The trip experience is the root cause of churn. A guest who feels supported mid-trip is more likely to leave a positive review, save the host, and rebook. Fixing the root cause before building downstream features is the right sequencing.',
+              rationale: 'The trip experience is the root cause of churn. A guest who feels supported mid-trip is more likely to leave a positive review, save the host, and rebook. Fixing the root cause before building downstream features is the optimal sequencing.',
             },
             {
               phase: 'Pre-trip second',
               color: '#1D9E75',
-              rationale: 'A briefed host creates a warmer pickup experience — directly amplifying the during-trip stories. Story 3 ships fast, costs almost nothing, and has zero dependencies on earlier stories.',
+              rationale: 'A briefed host creates a warmer pickup experience — directly amplifying the during-trip stories. Story 3 is high impact and has zero dependencies on earlier stories.',
             },
             {
               phase: 'Post-trip third',

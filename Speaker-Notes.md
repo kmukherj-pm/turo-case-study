@@ -411,7 +411,7 @@ There are roughly 20 million remote workers in the US post-2020. Even a conserva
 
 **Q5: "How does this interact with Turo's existing favorites feature?"**
 
-"Favorites already exists and it's well built — named lists, easy rebook, all-star host badge, preset dates. I audited it specifically before writing story 7. The garage isn't a replacement — it's an enrichment. A filter within the existing favorites tab that surfaces cars you've actually driven, distinct from cars you've browsed. The key difference is the driven signal — a car you drove and loved is fundamentally different from a car you clicked on once. Today those two signals are collapsed into the same list. Story 7 separates them, adds the car feel rating from story 4, and makes the rebook shortcut smarter with booking cadence data. We're building on Turo's investment, not ignoring it."
+"I audited it — named lists, easy rebook, all-star badge, preset dates. Well built. The garage isn't a replacement, it's an enrichment. A filter within the existing favorites tab that separates cars you've driven from cars you've browsed. That distinction doesn't exist today — and it's the signal that makes everything downstream smarter. We're building on what's there, not ignoring it."
 
 ---
 
@@ -423,19 +423,15 @@ There are roughly 20 million remote workers in the US post-2020. Even a conserva
 
 **Q7: "You didn't audit the host experience — how confident are you in the host-facing stories?"**
 
-"I was deliberate about naming this as an assumption in the presentation. I audited the guest booking and trip experience firsthand. I didn't complete a full host onboarding flow. Some of the host-facing features may partially exist today — I'd recommend a product audit before sprint planning specifically on stories 2, 3, and 8. What I'm confident about is the gap — my trip experience and the Reddit research both point to host responsiveness and briefing as underleveraged surfaces. The specific implementation details are exactly what the design and engineering team would validate in discovery."
+"I was deliberate about naming this as an assumption in the presentation. I audited the guest booking and trip experience firsthand. I didn't complete a full host onboarding flow. Some of the host-facing features may partially exist today — I'd recommend a product audit before diving into those stories. What I'm confident about is the gap — my trip experience and the Reddit research both point to host responsiveness and briefing as underleveraged surfaces. The specific details are exactly what we would validate in discovery."
 
 ---
 
 **Q8: "How did you build this presentation and why not a regular deck?"**
 
-"I built it in React, deployed on GitHub Pages. It's live right now if you want to look at it after this — the repo is public too so you can see the code.
+"Built in React, deployed on GitHub Pages — repo is public if you want to look at the code after this. The honest reason I didn't use slides — a deck is a container for content. I wanted to build a demonstration of how I think about product. The prototypes don't work in PowerPoint. And every piece of content lives in a data file — swap a metric, change a story title, one line, redeploys in two minutes."
 
-The honest reason I didn't use slides — I've been a PM for a long time and I've made a lot of decks. A deck is a container for content. What I wanted to build was a demonstration of how I think about product. The interactive story cards with expandable acceptance criteria, the tappable prototypes — those don't work in PowerPoint. The customer journey map could have been a slide — but the prototypes couldn't. And once I was building the prototypes I wanted everything to live in one place.
-
-There's also a practical reason. Every piece of content in this presentation lives in a data file. The stories, the persona, the metrics — they're all structured JavaScript objects. If you want to change a story title or swap a metric it's one line in one file and it redeploys in two minutes. That's how I think about product too — separation of content from presentation, clean data models, reusable components.
-
-And honestly — I wanted to show you what I'd bring to this role. Not just tell you."
+---
 
 **Q9: The early stories feel lightweight — is there enough engineering work here for a full team?"**
 

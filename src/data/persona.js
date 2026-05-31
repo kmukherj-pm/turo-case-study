@@ -49,8 +49,8 @@ export const persona = {
       body: "A nomad rotating across 3 cities with trusted hosts could generate 20-40 trips per year. A Wanderlust traveler caps at 5-6. Same acquisition cost, dramatically higher LTV.",
     },
     {
-      title: "Defensible against Uber and Waymo",
-      body: "Hourly urban rentals are being commoditized. A guest with a trusted host and a preferred car has no reason to switch — the relationship is the moat.",
+      title: "Defensible against traditional rental and car-share",
+      body: "Hertz and Zipcar compete on convenience and price — anonymous, transactional, no relationship. Neither can offer a trusted host who knows you or a car you've driven before. The relationship is the moat.",
     },
     {
       title: "Remote work expanded the market",

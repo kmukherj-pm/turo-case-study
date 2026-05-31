@@ -181,8 +181,6 @@ export const stories = [
       },
     ],
     outOfScope: [
-      "Calendar integration — backlog",
-      "Seasonal or event-based re-engagement triggers — backlog",
       "Price drop alerts on previously booked cars — backlog",
       "Re-engagement for neutral or negative trips — intentionally excluded",
       "Multi-trip re-engagement campaigns — backlog",

@@ -154,9 +154,9 @@ function GarageScreen() {
             borderRadius: '10px',
             marginBottom: '8px',
           }}>
-            <span style={{fontSize: '12px', color: car.available ? '#A37901' : '#aaa'}}>
-              {car.available ? 'Available this weekend' : 'Not available this weekend'}
-            </span>
+           <span style={{fontSize: '12px', color: car.available ? '#A37901' : '#aaa'}}>
+            {car.available ? 'Available Jul 3–5' : 'Not available Jul 3–5'}
+          </span>
             <span style={{fontSize: '12px', fontWeight: 600, color: car.available ? '#A37901' : '#aaa'}}>
               {car.available ? `$${car.rate}/day` : '—'}
             </span>
@@ -313,7 +313,7 @@ function RebookScreen() {
         {[
           {label: 'Dates', value: 'Fri Jul 3 – Sun Jul 5'},
           {label: 'Pickup', value: 'Spot B12 · 9:00 AM'},
-          {label: 'Rate', value: '$95/day — loyalty rate (30+ days ahead)'},
+          {label: 'Rate', value: '$95/day — loyalty rate ✓'},
           {label: 'Protection', value: 'Standard · same as last time'},
         ].map((item, i) => (
           <div key={i} style={{

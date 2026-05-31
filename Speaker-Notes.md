@@ -437,6 +437,10 @@ There's also a practical reason. Every piece of content in this presentation liv
 
 And honestly — I wanted to show you what I'd bring to this role. Not just tell you."
 
+**The early stories feel lightweight — is there enough engineering work here for a full team?"**
+
+"Fair observation — but I'd reframe it. The stories look simple on the surface. The interesting engineering challenge is what's underneath — the trusted roster data model, the enriched review signal pipeline, the booking cadence engine. We're not just building features, we're building infrastructure that powers everything in the next quarter and beyond. An engineer who builds story 4 isn't building a review widget — they're building the data layer that makes Turo smarter about every guest for years to come."
+
 ---
 
 ## FINAL REMINDERS

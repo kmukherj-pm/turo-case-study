@@ -22,7 +22,7 @@ const stages = [
       'Lockbox was confusing — no video guidance',
       'In-app navigation sent me to the wrong location',
     ],
-    quote: '"I wish someone had told him I was new to this."',
+    quote: '"I wish someone had told him I was new to Turo."',
   },
   {
     stage: 'During trip',
@@ -42,7 +42,7 @@ const stages = [
     feeling: 'Anxious',
     color: '#D85A30',
     observations: [
-      'Returned 10 minutes late — no warning I was in grace period',
+      'Returned 10 minutes late',
       'Still don\'t know if I was charged extra',
       'Lockbox return was confusing',
     ],

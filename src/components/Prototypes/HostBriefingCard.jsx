@@ -1,12 +1,11 @@
 import { useState } from 'react'
 
 const guest = {
-  name: 'Alex K.',
-  rating: 4.9,
+  name: 'Kaustav M.',
   trips: 1,
   firstTimer: true,
   previousCars: [],
-  memberSince: '2025',
+  memberSince: 'May 2026',
 }
 
 const screens = [
@@ -80,7 +79,7 @@ function NotificationScreen() {
           Your next guest is arriving soon
         </p>
         <p style={{fontSize: '12px', color: '#666', margin: '0 0 12px', lineHeight: 1.5}}>
-          Alex K. arrives at 2:00 PM. This is their first Turo trip — here's what you should know.
+          Kaustav M. arrives at 2:00 PM. This is their first Turo trip — here's what you should know.
         </p>
         <button style={{
           width: '100%',
@@ -123,7 +122,7 @@ function BriefingScreen() {
           <p style={{fontSize: '15px', fontWeight: 600, color: '#231F20', margin: 0}}>{guest.name}</p>
           <div style={{display: 'flex', alignItems: 'center', gap: '6px'}}>
             <span style={{fontSize: '12px', color: '#F9D96A'}}>★</span>
-            <span style={{fontSize: '12px', color: '#888'}}>{guest.rating} · Member since {guest.memberSince}</span>
+            <span style={{fontSize: '12px', color: '#888'}}>· Member since {guest.memberSince}</span>
           </div>
         </div>
       </div>
@@ -198,7 +197,7 @@ function BriefingScreen() {
 
 function WelcomeScreen() {
   const [sent, setSent] = useState(false)
-  const message = "Hey Alex! Welcome to your first Turo trip 🎉 I'm Carlos, your host. The Subaru is parked in spot B12 — the lockbox code is 4821. CarPlay is all set up. Have an amazing trip and don't hesitate to reach out if you need anything!"
+  const message = "Hey Kaustav! Welcome to your first Turo trip 🎉 I'm Carlos, your host. The Subaru is parked in spot B12 — the lockbox code is 4821. CarPlay is all set up. Have an amazing trip and don't hesitate to reach out if you need anything!"
 
   return (
     <div style={{padding: '16px'}}>
@@ -234,7 +233,7 @@ function WelcomeScreen() {
             cursor: 'pointer',
           }}
         >
-          Send to Alex
+          Send to Kaustav
         </button>
       ) : (
         <div style={{
@@ -248,7 +247,7 @@ function WelcomeScreen() {
           fontWeight: 600,
           color: '#1D9E75',
         }}>
-          ✓ Message sent to Alex
+          ✓ Message sent to Kaustav
         </div>
       )}
       <p style={{fontSize: '11px', color: '#ccc', textAlign: 'center', marginTop: '12px'}}>

@@ -46,7 +46,7 @@ export const persona = {
   whyThisPersonaFirst: [
     {
       title: "Highest ATPU ceiling",
-      body: "A nomad rotating across 3 cities with trusted hosts could generate 20-40 trips per year. A Wanderlust traveler caps at 5-6. Same acquisition cost, dramatically higher LTV.",
+      body: "A nomad rotating across 3 cities with trusted hosts could generate 20-40 trips per year. A Wanderlust traveler caps at 5-6. Dramatically higher LTV.",
     },
     {
       title: "Defensible against traditional rental and car-share",

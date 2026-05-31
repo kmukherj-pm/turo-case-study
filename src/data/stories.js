@@ -286,8 +286,8 @@ export const stories = [
       action: "Cold start empty state covers both features",
       detail: "complete your first trip to start building your garage and trusted roster"
     },
-],
-    ],
+  ],
+
     outOfScope: [
       "Standalone garage tab — intentionally excluded, lives within existing favorites tab",
       "Garage sharing or social features — intentionally excluded",

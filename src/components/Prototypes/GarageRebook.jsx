@@ -280,10 +280,10 @@ function RebookScreen() {
           Available for you
         </p>
         <p style={{fontSize: '13px', color: '#231F20', margin: '0 0 2px'}}>
-          Carlos has your Subaru free this weekend
+          Carlos has your Subaru available July 3-5
         </p>
         <p style={{fontSize: '12px', color: '#888', margin: 0}}>
-          Book before Friday noon to lock in your $95/day rate
+          Book now to lock in your $95/day returning guest rate
         </p>
       </div>
 
@@ -311,9 +311,9 @@ function RebookScreen() {
           </div>
         </div>
         {[
-          {label: 'Dates', value: 'Sat May 31 – Sun Jun 1'},
+          {label: 'Dates', value: 'Fri Jul 3 – Sun Jul 5'},
           {label: 'Pickup', value: 'Spot B12 · 9:00 AM'},
-          {label: 'Rate', value: '$95/day — your loyalty rate'},
+          {label: 'Rate', value: '$95/day — loyalty rate (30+ days ahead)'},
           {label: 'Protection', value: 'Standard · same as last time'},
         ].map((item, i) => (
           <div key={i} style={{

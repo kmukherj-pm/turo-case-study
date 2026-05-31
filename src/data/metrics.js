@@ -81,12 +81,12 @@ export const metrics = {
       description: "Guests set a repeating booking schedule with a trusted host — every Saturday, every first weekend of the month. Mobility by routine, not by memory.",
     },
     {
-      title: "Car type affinity matching",
-      description: "You loved a Subaru Outback in Portland — here are similar cars in Austin. Recommendations engine applied to mobility.",
+      title: "Host car orientation video",
+      description: "A short host-recorded video on the listing page and in the pre-trip briefing — the host walking around their car, pointing out the CarPlay cable, the quirky seat adjustment, the best nearby spots. Puts a face to the host before arrival. The Airbnb welcome video equivalent for cars.",
     },
     {
-      title: "Airbnb packaging",
-      description: "Hosts who list on both platforms offer home and car together. BD dependency but a natural destination travel bundle for the Wanderlust segment.",
+      title: "Airbnb partnership — home and car bundling",
+      description: "Airbnb just validated guest demand for integrated travel services with Welcome Pickups. The natural next step is a Turo partnership — guest books a home on Airbnb, adds a Turo car at checkout. Airbnb owns discovery, Turo owns the car for the full stay. A distribution play that puts Turo in front of the Wanderlust traveler at their highest-intent booking moment.",
     },
     {
       title: "Relationship-first search",

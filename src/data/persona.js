@@ -40,7 +40,7 @@ export const persona = {
   whyNotWanderlust: [
     "The host relationship thesis breaks down for the Wanderlust traveler — they rarely return to the same city, so the host relationship is geographically locked. You can't rebook a Sedona host from San Francisco on a whim.",
     "Turo is already solving Wanderlust discovery through distribution — Uber Rent and Kayak put Turo in front of millions of travelers at their highest booking intent moment. The Wanderlust acquisition problem is being addressed externally.",
-    "The nomad's ATPU ceiling is dramatically higher — 20 to 40 trips a year versus 5 to 6 for a traveler. And while acquisition cost may be higher for the nomad who finds Turo organically, the LTV math is compelling — a nomad pays back that acquisition cost within the first quarter of use.",
+    "The nomad's ATPU ceiling is dramatically higher — 20 to 40 trips a year versus 5 to 6 for a traveler. And while acquisition cost may be higher for the nomad who finds Turo organically, the LTV math is compelling.",
     "The nomad has structurally opted out of car ownership — not temporarily, but as a lifestyle. They're not a churn risk the moment they settle somewhere new. Car ownership simply isn't in their plan.",
   ],
   whyThisPersonaFirst: [

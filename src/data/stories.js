@@ -28,7 +28,6 @@ export const stories = [
       "Calendar integration — backlog",
       "Photo capture improvement — backlog",
       "AI-generated in-trip responses — backlog",
-      "Real-time guest GPS tracking — backlog",
       "Host-facing in-trip tools — covered in story 2",
     ],
     atpuLink: "A guest who feels supported during the trip is more likely to leave a positive enriched review, save the host, and rebook — directly feeding stories 4, 5, and 6.",
@@ -42,8 +41,8 @@ export const stories = [
     statement: "As a host, I want lightweight tools that help me respond quickly to guests during active trips so that I can deliver a great experience without being tethered to my phone.",
     criteria: [
       {
-        action: "Push notification when guest message goes unanswered for 5 minutes",
-        detail: "fires during active trips only"
+        action: "Escalation notification fires if guest message goes unanswered for 5 minutes during active trip",
+        detail: "only fires if host has not opened or responded to the original message notification — not an additional alert for already-seen messages"
       },
       {
         action: "Quick-reply directly from iOS notification action or Android direct reply",
@@ -88,8 +87,8 @@ export const stories = [
         detail: "not just at the 2-hour notification moment"
       },
       {
-        action: "AI-generated welcome message for first-time guests",
-        detail: "based on trip number and previous bookings with the host — editable before sending in one tap"
+        action: "AI-generated welcome message surfaces for every guest",
+        detail: "message tone and content adapts based on trip number on Turo and previous bookings with this specific host — first-timer, new to this host, or returning guest — editable before sending in one tap"
       },
       {
         action: "Private host note on guest profile",
@@ -231,10 +230,7 @@ export const stories = [
     outOfScope: [
       "Saving a host without a completed trip — intentionally excluded",
       "Individual guest visibility for hosts — v1 shows aggregate count only ('2 guests have added you to their trusted roster'), named guest visibility unlocks in v2 once we validate the roster drives rebooking behavior",
-      "Saved host availability alerts for specific dates — requires calendar integration, backlog",
       "Mutual connection or social features — intentionally excluded",
-      "Suggested hosts based on trusted roster affinity — backlog, recommendations engine v2",
-      "Cross-city trusted roster portability — backlog, recommendations engine v2",
     ],
     atpuLink: "The trusted roster is the relationship memory layer that makes every subsequent story possible. A guest with three trusted hosts in their city has a mobility network — not a rental app.",
   },
@@ -246,56 +242,54 @@ export const stories = [
     persona: "guest",
     statement: "As a guest, I want my past driven cars and trusted hosts surfaced in one place so that rebooking a great experience takes seconds — whether I'm returning for a car I loved, a host I trust, or both.",
     criteria: [
-      {
-        action: "Your garage filter within existing favorites tab",
-        detail: "surfaces cars the guest has driven — distinct from browsed and saved cars"
-      },
-      {
-        action: "Driven cars added to garage automatically on trip completion",
-        detail: "no guest action required — garage populates passively"
-      },
-      {
-        action: "Garage card shows car, host, last trip date, car feel rating, rebook shortcut",
-        detail: "feel rating from story 4 if submitted"
-      },
-      {
-        action: "Cars with a completed trip automatically appear in the garage filter",
-        detail: "if already favorited, the existing favorite is enriched with the driven signal — no duplicate entries"
-      },
-      {
-        action: "Notification when garaged car is available for an upcoming weekend",
-        detail: "frequency capped at once per week per car"
-      },
-      {
-        action: "Suggested rebook date based on prior booking cadence",
-        detail: "not a generic date one month ahead"
-      },
-      {
-        action: "Trusted rebook prompt when saved host and garaged car are both available",
-        detail: "since saving a host requires a completed trip, a garaged car from that host always exists when this prompt fires"
-      },
-      {
-        action: "If archived car's host has another car available, guest is notified",
-        detail: "host relationship survives car preference changing"
-      },
-      {
-        action: "One-tap rebook pre-populates entire booking flow",
-        detail: "car, host, dates, and previously used protection plan — guest confirms with a single tap"
-      },
-      {
-        action: "Weekly digest notification summarizing availability across trusted roster and garage",
-        detail: "opt-in, frequency user-controlled"
-      },
-      {
-        action: "Cold start empty state covers both features",
-        detail: "complete your first trip to start building your garage and trusted roster"
-      },
+    {
+      action: "Your garage filter within existing favorites tab",
+      detail: "surfaces cars the guest has driven — distinct from browsed and saved cars"
+    },
+    {
+      action: "Driven cars added to garage automatically on trip completion",
+      detail: "no guest action required — garage populates passively"
+    },
+    {
+      action: "Garage card shows car, host, last trip date, car feel rating, rebook shortcut",
+      detail: "feel rating from story 4 if submitted"
+    },
+    {
+      action: "Cars already in favorites that have been driven are automatically elevated to garage view",
+      detail: "no duplicate entries — the driven signal enriches the existing favorite rather than creating a second record"
+    },
+    {
+      action: "Browsed and saved cars remain in the existing favorites view unchanged",
+      detail: "the garage filter is additive, not a replacement"
+    },
+    {
+      action: "Suggested rebook date based on prior booking cadence",
+      detail: "not a generic date one month ahead — weekly cadence suggests next weekend, monthly suggests 30 days out"
+    },
+    {
+      action: "Guest can archive a car from their garage without affecting favorites or trip history",
+      detail: "if archived car's host has another car available, surfaced in weekly digest"
+    },
+    {
+      action: "Weekly availability digest across garage and trusted roster",
+      detail: "opt-in only — each digest card includes a one-tap rebook shortcut when both host and car are available. Guests can turn off in notification preferences"
+    },
+    {
+      action: "Guest can manage notification preferences per category",
+      detail: "availability alerts, digest, and trip updates are separate notification categories — guests can opt out of availability alerts without affecting trip notifications"
+    },
+    {
+      action: "One-tap rebook pre-populates entire booking flow",
+      detail: "car, host, dates, and previously used protection plan — guest confirms with a single tap"
+    },
+    {
+      action: "Cold start empty state covers both features",
+      detail: "complete your first trip to start building your garage and trusted roster"
+    },
+],
     ],
     outOfScope: [
       "Standalone garage tab — intentionally excluded, lives within existing favorites tab",
-      "Home screen widget — descope candidate for sprint planning",
-      "Trusted rebook across cities — backlog, recommendations engine v2",
-      "Car type affinity matching across cities — backlog, recommendations engine v2",
       "Garage sharing or social features — intentionally excluded",
       "Price history or price drop alerts — backlog",
     ],
@@ -342,15 +336,14 @@ export const stories = [
         detail: "changes apply to future bookings only — confirmed bookings unaffected"
       },
       {
-        action: "Projected advance booking revenue with and without loyalty pricing",
-        detail: "concrete ROI signal for maintaining trusted roster"
+        action: "Host dashboard surfaces loyalty booking rate",
+        detail: "percentage of advance bookings from trusted roster guests vs general public — projected revenue comparison is a v2 addition once baseline data exists"
       },
     ],
     outOfScope: [
       "Loyalty pricing for non All-Star hosts — backlog, expand based on v1 results",
       "Per-car loyalty pricing configuration — backlog",
       "Loyalty pricing for bookings under 30 days advance — intentionally excluded",
-      "Automated loyalty discount adjustments based on demand — backlog, yield management v2",
       "Loyalty pricing tiers — backlog",
     ],
     atpuLink: "Loyalty pricing gives hosts a financial tool to reward returning guests — directly incentivizing the advance bookings that improve host utilization and guest ATPU simultaneously.",
@@ -373,10 +366,6 @@ export const stories = [
         detail: "guest sees standard rate, loyalty rate, and saving — your returning guest rate: $95/day — you save $15/day"
       },
       {
-        action: "Push notification when trusted roster host has availability 30+ days out",
-        detail: "book now to lock in your returning guest rate"
-      },
-      {
         action: "Standard rate applies for bookings under 30 days",
         detail: "booking flow communicates when loyalty rate window is available"
       },
@@ -394,7 +383,6 @@ export const stories = [
       "Loyalty rate for bookings under 30 days advance — intentionally excluded",
       "Guest ability to negotiate loyalty rate with host — backlog",
       "Loyalty rate stacking with promotional discounts — backlog, pricing rules v2",
-      "Loyalty rate visibility before guest is added to trusted roster — intentionally excluded",
     ],
     atpuLink: "The loyalty rate is the financial signal that makes building a trusted roster tangibly worthwhile. A guest who saves $15/day by booking early with a trusted host has a concrete reason to plan further ahead — directly driving ATPU.",
   },

@@ -10,8 +10,8 @@ export const metrics = {
       story: "Story 2",
     },
     {
-      label: "Post-trip car feel completion rate",
-      description: "Percentage of guests who complete the enriched review car feel question. Measures data foundation health for downstream stories.",
+      label: "Enriched review completion rate",
+      description: "Percentage of guests who complete the post-trip enriched review questions — car feel and host relationship. Measures data foundation health for downstream stories. Baseline established in first week post-ship, target set from there.",
       story: "Story 4",
     },
     {

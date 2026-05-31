@@ -34,7 +34,7 @@ export const persona = {
   },
   {
   label: "Host-facing features assume gaps in the current product",
-  body: "I audited the guest booking and trip experience firsthand but did not complete a full host onboarding flow — some host-facing stories may partially exist today and would require a product audit before sprint planning"
+  body: "I audited the guest booking and trip experience firsthand and did a light audit of the host onboarding flow. The car location pin exists but wasn't able to adjust it. No guest briefing or host-guest communication tools were visible during listing setup — validating the gap stories 2 and 3 address."
 },
 ],
 whyNotWanderlust: [

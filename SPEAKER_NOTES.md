@@ -44,7 +44,7 @@ And that's the opportunity.
 Turo's next product frontier is loyalty. Not acquisition. Not supply. Loyalty. And that's what the next 45 minutes are about."
 
 ---
-
+<div style="page-break-before: always;"></div>
 ## PROBLEM — 3 minutes
 
 "Let me show you what I mean.
@@ -68,7 +68,7 @@ So when I look at the opportunity I see three gaps.
 These three gaps are what the roadmap addresses. Let me show you what I actually experienced."
 
 ---
-
+<div style="page-break-before: always;"></div>
 ## MY TRIP — 4 minutes
 
 "Before I wrote a single user story I booked a Subaru Outback on Turo and took a day trip. Here's what actually happened.
@@ -94,7 +94,7 @@ They just needed to be assembled.
 That's what this roadmap does."
 
 ---
-
+<div style="page-break-before: always;"></div>
 ## PERSONA AND STRATEGY — 5 minutes
 
 "So who are we building this for?
@@ -136,7 +136,7 @@ One honest gap — I audited the guest experience firsthand and a very light aud
 Let's get into the roadmap." (3 second pause)
 
 ---
-
+<div style="page-break-before: always;"></div>
 ## ROADMAP — 15 minutes
 
 "Every story on this roadmap is designed to strengthen one or both of two relationships — the guest's connection to a trusted host, and their affinity for a car they love to drive. That's the mental roster we're building.
@@ -148,7 +148,7 @@ The prioritization logic follows four phases. During-trip stories first — beca
 Let's go through them."
 
 ---
-
+<div style="page-break-before: always;"></div>
 **STORY 1 — TRIP COMPANION**
 
 Story 1 — trip companion. I forgot to fuel up, got lost, and returned late without knowing if I'd been charged. None of that needed to happen — Turo had all the information to prevent every one of those moments. 
@@ -178,7 +178,7 @@ Two hours before pickup, the host gets a push notification — my trip number, m
 The trip is now great. Let's capture what the guest loved. Story 4.
 
 ---
-
+<div style="page-break-before: always;"></div>
 **STORY 4 — ENRICHED POST-TRIP REVIEW**
 
 Story 4 — enriched post-trip review. I got a generic 1-5 star review survey after my trip. It told Turo almost nothing useful about whether I'd come back. 
@@ -206,7 +206,7 @@ Story 6 — trusted roster. After a great trip there's no easy way to say I want
 The garage is the car side of that network. Story 7.
 
 ---
-
+<div style="page-break-before: always;"></div>
 **STORY 7 — YOUR GARAGE AND TRUSTED REBOOK**
 
 Story 7 — your garage and trusted rebook. I drove a Subaru Outback and loved it. There's no easy way to get back to it. 
@@ -238,7 +238,7 @@ When a trusted roster guest books 30 or more days out, the loyalty rate applies 
 "Nine stories. One arc. Let me show you what three of them feel like to use."
 
 ---
-
+<div style="page-break-before: always;"></div>
 ## PROTOTYPES — 6 minutes
 
 I built three interactive prototypes for the highest-impact stories. Let me walk you through them.
@@ -295,7 +295,7 @@ That's what rebooking feels like when the product knows you.
 Let me now show you how we'd know if all of this is working.
 
 ---
-
+<div style="page-break-before: always;"></div>
 ## METRICS — 5 minutes
 
 Let me walk you through how we'd measure success — and be honest about what we can and can't see quickly.
@@ -339,7 +339,7 @@ At 60 days — trip 2 conversion rate directionally positive versus control, tru
 At 90 days — ATPU movement visible for the nomad segment. That's the number we came here to move.
 
 ---
-
+<div style="page-break-before: always;"></div>
 ## FUTURE BETS — 1 minute
 
 I want to spend just a minute on where this roadmap leads — because the infrastructure we're building unlocks some genuinely interesting bets.
@@ -377,7 +377,7 @@ That's the arc.
 Thank you. I'm happy to take any questions.
 
 ---
-
+<div style="page-break-before: always;"></div>
 ## Q&A — Pre-loaded answers
 
 ---

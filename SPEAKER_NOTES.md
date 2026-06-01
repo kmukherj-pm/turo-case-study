@@ -79,13 +79,13 @@ Then I got to pickup.
 
 The in-app navigation sent me to the wrong pickiup location. I was lost. I messaged the host. Radio silence. I figured it out myself — but I shouldn't have had to.
 
-The host messaged me like a stranger. Perfectly pleasant — but transactional. No warmth, no welcome. Turo had all the context to make that moment special — it was my first trip, I'd booked a Subaru, I was arriving at 10am — and none of it seemed to reach him. First-timer context existed but wasn't enough to activate a warm welcome.
+The host messaged me like a stranger. Pleasant — but transactional. No warmth, no welcome. Turo had all the context to make that moment special — it was my first trip, I'd booked a Subaru, I was arriving at 10am — and none of it seemed to reach him. First-timer context existed but wasn't enough to activate a warm welcome.
 
 The lockbox was confusing. Nobody reminded me to fuel up. I did a mad rush at the last minute to find a station.
 
 At return I came back 10 minutes past the grace period. I knew about the 30 minutes buffer — but I had no idea if those extra 10 minutes would trigger a charge. That unresolved uncertainty — did I just get charged? — is the last feeling I had about this trip. Zipcar used to pardon first-time late returns automatically. That one gesture built more loyalty than any marketing campaign.
 
-And then Turo went quiet. Generic 1-5 star review. No car feel question. No re-engagement prompt. Within a few weeks the memory fades.
+And then Turo went quiet. Generic 1-5 star review. Within a few weeks the memory fades.
 
 Here's the thing though — none of this needed to happen. Turo had every piece of information to prevent every one of those moments. The fuel reminder, the grace period notification, the host briefing, the re-engagement prompt. The ingredients were all there.
 
@@ -108,7 +108,7 @@ I considered three personas.
 I chose the Digital Nomad. Here's why.
 
 The Wanderlust Traveler is the obvious answer. They're aspirational, they fit Turo's brand. But Turo is already solving the Wanderlust discovery problem — Uber Rent and Kayak put Turo in front of millions of travelers at their highest booking intent moment. What Turo's own product needs to solve is what happens after that first booking. The retention layer. The relationship layer. That's this roadmap.
-And when I stress-tested the relationship thesis against the Wanderlust persona it broke down anyway — they rarely return to the same city. The host relationship is geographically locked. You can't rebook a Sedona host from San Francisco on a whim.
+And when I stress-tested the relationship thesis against the Wanderlust persona it broke down anyway — they rarely return to the same city. The host relationship is geographically locked. You can't rebook a NYC host from San Francisco on a whim.
 The nomad is different. Structurally opted out of car ownership. Not a churn risk. And their ATPU ceiling is dramatically higher — 20 to 40 trips a year versus 5 to 6. The LTV math is compelling even if acquisition cost is higher.
 
 Worth noting — that the first 5 user stories in the roadmao are platform improvements that lift every guest segment. The remaining stories are where we make a deliberate bet on the nomad. That's where the relationship infrastructure lives.
@@ -131,7 +131,7 @@ Host quality directly drives rebooking. A transactional pickup or radio silence 
 
 I've called out a couple of other assumptions which will make more sense once we get to the relevant stories. 
 
-One honest gap — I audited the guest experience firsthand but didn't complete a full host onboarding flow. Some host-facing stories may partially exist today. As part of due diligence on this roadmap, I'd want to audit the host-facing product before committing those stories to a sprint — some may partially exist today.
+One honest gap — I audited the guest experience firsthand and a very light audit of the host onboarding flow. Some host-facing features that I'll discuss here may partially exist today. As part of due diligence on this roadmap, I'd want to audit the full host-facing product before committing to building those stories.
 
 Let's get into the roadmap." (3 second pause)
 
@@ -143,7 +143,7 @@ Let's get into the roadmap." (3 second pause)
 
 The arc is simple. Fix the trip. Capture the signal. Build the relationship. Make rebooking effortless. Reward loyalty. Each story has a job and they build on each other sequentially. Better trips generate richer signals. Richer signals build stronger relationships. Stronger relationships convert to repeat bookings. That's the causal chain to ATPU.
 
-The prioritization logic follows four phases. During-trip stories first — because the trip experience is the root cause. If the trip isn't good, nothing downstream matters. Pre-trip second — the host briefing card amplifies the during-trip experience and has zero dependencies. Post-trip third — capture the signal while the experience is warm. Relationship infrastructure last — because it depends on everything before it. But it's also where ATPU compounds over time.
+The prioritization logic follows four phases. During-trip stories first — because the trip experience is the root cause. If the trip isn't good, nothing downstream matters. Pre-trip second — a host briefing amplifies the guest's pick up and trip experience and has zero dependencies. Post-trip third — capture the signal while the experience is warm. Relationship infrastructure last — because it depends on everything before it. But it's also where ATPU compounds over time.
 
 Let's go through them."
 
@@ -171,9 +171,9 @@ But responsiveness is just the start — personalized communication is where the
 
 **STORY 3 — HOST BRIEFING CARD**
 
-Story 3 — host briefing card. The host didn't know it was my first trip. Turo did. That information never reached him. 
+Story 3 — host briefing card. The host didn't acknowledge that it was my first trip. Turo knew about it. That information perhaps never reached him. 
 
-Two hours before pickup, the host gets a push notification — my trip number, my garaged cars from prior trips, my rating, and a first-timer flag. Enough context to show up differently. And for first-timers — an AI-generated welcome message, one tap to send, editable before it goes. The AI drafts the warmth, the host adds the local knowledge — if the parking spot is tricky, they add a landmark, if the lockbox has a quirk, they mention it. This is the AI moment in this roadmap — not a complex system, just taking data we already have and turning it into a warmer human interaction.
+Two hours before pickup, the host gets a push notification — my trip number, my garaged cars from prior trips, my rating, and a first-timer flag. Enough context to show up differently. A personalized welcome message, one tap to send, editable before it goes. The AI drafts the warmth, the host adds the local knowledge — if the parking spot is tricky, they add a landmark, if the lockbox has a quirk, they mention it. This is the AI moment in this roadmap — not a complex system, just taking data we already have and turning it into a warmer human interaction.
 
 The trip is now great. Let's capture what the guest loved. Story 4.
 
@@ -183,7 +183,7 @@ The trip is now great. Let's capture what the guest loved. Story 4.
 
 Story 4 — enriched post-trip review. I got a generic 1-5 star review survey after my trip. It told Turo almost nothing useful about whether I'd come back. 
 
-Two additive questions after the existing star rating — how did the car feel, and would you rent from this host again. Plus a one-tap trip purpose tag. Optional, skippable, 15 seconds. The existing rating stays completely intact. This isn't replacing the review system — it's adding the signals that tell us whether a guest is on a path to becoming a high-ATPU repeat booker. And it's the data foundation that powers every story that follows.
+Two additive questions after the existing star rating — how did the car feel, and would you rent from this host again. Plus a one-tap trip purpose tag. Optional, skippable, 15 seconds. The existing rating stays completely intact. This isn't replacing the review system — it's adding the signals that tell us whether a guest is on a path to becoming a high-ATPU repeat booker. And it's the data foundation that powers every story that follows. Similar to what Airbnb does very well.
 
 Now we have the signal. Let's use it. Story 5.
 
@@ -219,7 +219,7 @@ Now let's make the relationship financially rewarding for both sides. Stories 8 
 
 **STORY 8 — LOYALTY PRICING — HOST**
 
-Story 8 — loyalty pricing for returning guests, host side. Hosts have returning guests they count on. Today Turo gives them no tools to reward or prioritize them. 
+Story 8 — loyalty pricing for returning guests, host side. Hosts have returning guests they count on. Let's give them tools to reward or prioritize these valuable guests. 
 
 All-Star hosts only. A set-and-forget loyalty discount between 5 and 20 percent — applies automatically when a trusted roster guest books 30 or more days in advance. The host sets it once, the system does the rest. A small rate reduction in exchange for advance booking certainty. Rational economics for any micro-fleet operator.
 
@@ -241,7 +241,7 @@ When a trusted roster guest books 30 or more days out, the loyalty rate applies 
 
 ## PROTOTYPES — 6 minutes
 
-I built three interactive prototypes for the highest-impact stories. These aren't wireframes — they're . Let me walk you through them.
+I built three interactive prototypes for the highest-impact stories. Let me walk you through them.
 
 ---
 
@@ -269,7 +269,7 @@ First — the notification. My name, my trip number, the first-timer flag. Enoug
 
 Then — the briefing card. Trip history, car preferences, guest rating. Private notes that persist across future bookings.
 
-And for first-timers — an AI-generated welcome message. One tap to send. Editable before it goes. And because the host is writing it — they can add the details that matter. If the parking location is tricky, they add a landmark. If the lockbox has a quirk, they mention it. The AI drafts the warmth, the host adds the local knowledge.
+And an AI-generated welcome message. One tap to send. Editable before it goes. And because the host is writing it — they can add the details that matter. If the parking location is tricky, they add a landmark. If the lockbox has a quirk, they mention it. The AI drafts the warmth, the host adds the local knowledge.
 
 This is what I wished had happened at 10am last week.
 
@@ -292,7 +292,7 @@ That's what rebooking feels like when the product knows you.
 
 *[Pause. Let the room absorb it.]*
 
-Let me show you how we'd know if all of this is working.
+Let me now show you how we'd know if all of this is working.
 
 ---
 
@@ -300,7 +300,7 @@ Let me show you how we'd know if all of this is working.
 
 Let me walk you through how we'd measure success — and be honest about what we can and can't see quickly.
 
-ATPU is a lagging metric. It moves slowly. A guest who trips in week 4 of the quarter won't rebook until week 8 or 10 at the earliest. If we wait for ATPU to move before we know if the roadmap is working, we've waited too long to course correct.
+ATPU is a lagging metric. It moves slowly. A guest who takes a trip in week 4 of the quarter won't rebook until week 8 or 10 at the earliest. If we wait for ATPU to move before we know if the roadmap is working, we've waited too long to course correct.
 
 So we need leading indicators. Signals that tell us within 30 days of each feature shipping whether the relationship infrastructure is taking hold.
 
@@ -312,9 +312,9 @@ In the middle — six leading indicators, sequenced by story order.
 
 In-trip response cycle time. Average time for a host to respond during an active trip. Target under 5 minutes. This is our earliest signal that story 2 is changing host behavior.
 
-Post-trip car feel completion rate. Are guests answering the enriched review questions? If completion rate isn't trending up we have a UX problem in story 4 before we have a data problem downstream.
+Enriched review completion rate. Are guests answering the enriched review questions? If completion rate isn't trending up we have a UX problem in story 4 before we have a data problem downstream.
 
-Trip 2 conversion rate. Percentage of guests who complete a second trip within 60 days of their first. This is the earliest proxy for ATPU trajectory and the most important number on this list.
+Trip 2 conversion rate. Percentage of guests who complete a second trip within 60 days of their first. This is the earliest proxy for ATPU trajectory and the most important leading indicator.
 
 Post-trip host save rate. Percentage of guests who save a host after a completed trip. The primary signal that the trusted roster is working.
 
@@ -334,7 +334,7 @@ One important note on timing — the 30, 60, and 90 day milestones I'm about to 
 
 At 30 days — in-trip response cycle time trending down, enriched review completion rate trending up from baseline, star rating distribution unchanged.
 
-At 60 days — trip 2 conversion rate directionally positive versus control, trusted rebook rate measurable for early cohorts, loyalty pricing enabled by All-Star hosts with adoption target set in sprint planning.
+At 60 days — trip 2 conversion rate directionally positive versus control, trusted rebook rate measurable for early cohorts, loyalty pricing enabled by All-Star hosts with adoption target set in planning.
 
 At 90 days — ATPU movement visible for the nomad segment. That's the number we came here to move.
 
@@ -356,7 +356,7 @@ Relationship-first search — for guests with a populated trusted roster, discov
 
 ## CLOSING — 2 minutes
 
-Before I open it up for questions — I want to leave you with one thought.
+Before I wrap up — I want to leave you with one thought.
 
 Turo has built something genuinely impressive. A marketplace that works. A booking experience that guests love. Supply that keeps growing.
 
@@ -405,7 +405,7 @@ There are roughly 20 million remote workers in the US post-2020. Even a conserva
 
 **Q4: "What does success look like at 30 days?"**
 
-"Three things. In-trip response cycle time trending down — that tells us story 2 is changing host behavior. Enriched review completion rate trending up from baseline — that tells us the data foundation is being built. And star rating distribution unchanged — that tells us we haven't accidentally broken the trust signal that powers host discoverability. Trip 2 conversion rate is the number I care most about but it's a 60-day signal — guests need time to rebook. At 30 days we're validating the foundation, not declaring victory."
+"Three things. In-trip response cycle time trending down — that tells us host communication is improving. Enriched review completion rate trending up from baseline — that tells us the data foundation is being built. And star rating distribution unchanged — that tells us we haven't accidentally broken the trust signal that powers host discoverability. Trip 2 conversion rate is the number I care most about but it's a 60-day signal — guests need time to rebook. At 30 days we're validating the foundation, not declaring victory."
 
 ---
 
@@ -436,6 +436,11 @@ There are roughly 20 million remote workers in the US post-2020. Even a conserva
 **Q9: The early stories feel lightweight — is there enough engineering work here for a full team?"**
 
 "Fair observation — but I'd reframe it. The stories look simple on the surface. The interesting engineering challenge is what's underneath — the trusted roster data model, the enriched review signal pipeline, the booking cadence engine. We're not just building features, we're building infrastructure that powers everything in the next quarter and beyond. An engineer who builds story 4 isn't building a review widget — they're building the data layer that makes Turo smarter about every guest for years to come."
+
+---
+
+**Q10: "How would you find nomad users in Turo's existing base?"**
+"Cohort analysis on behavioral signals — guests with 3+ trips in the same city within 6 months, recurring booking patterns, short gaps between bookings. Cities like Austin, Denver, and SF are where I'd expect to find this behavior already happening. That analysis validates the segment before we build anything. If the cohort is meaningful in size, we have our pilot market. If it's not, we revisit the persona."
 
 ---
 

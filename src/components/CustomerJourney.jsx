@@ -56,7 +56,6 @@ const stages = [
     observations: [
       'Generic 1-5 star review — no car feel question',
       'No re-engagement prompt',
-      'No way to save the host or car easily',
       'Memory fades within weeks',
     ],
     quote: '"That was fine. I probably won\'t think about Turo again."',

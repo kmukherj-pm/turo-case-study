@@ -87,7 +87,7 @@ export const aboutMe = {
       relevance: "Deep experience building tools for small business operators — directly applicable to the micro-fleet host persona Turo is growing",
     },
     {
-      role: "Founding PM — Mailchimp, Commerce",
+      role: "PM — Mailchimp, Commerce  (0→1)",
       relevance: "0 to 1 launch to 250K customers — built the merchant and shopper experience end to end",
     },
     {
